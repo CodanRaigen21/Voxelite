@@ -1,0 +1,21 @@
+.contentWrapper{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+}
+.contentHolder{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	width:70%;
+}
+.contentHolder *{
+	color:transparent;
+}
+.twitter-tweet-rendered{
+	max-width:calc(100% / 3) !important;
+	scale:0.95;
+}
+.r-14lw9ot{
+	background-color:hsl(230, 35%, 35%, 20%) !important;
+}
