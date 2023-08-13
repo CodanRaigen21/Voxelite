@@ -49573,7 +49573,7 @@ const addonsList = [
 					],
 					"description": [
 						{ "type": "subheading", "data": "Description" },
-						{ "type": "paragraph", "data": [ "This is a mimic entity that explodes after 3 seconds. The strength of the explosion is the same as a normal vanilla creeper but won't damage blocks.", ] },
+						{ "type": "paragraph", "data": [ "As a consequence of creating artificial ores, the $itself will attack anyone nearby who appears to desire to mine its valuable ore. Their yield doubles in comparison to their original blocks.", "This is a mimic entity that explodes after 3 seconds. The strength of the explosion is the same as a normal vanilla creeper but won't damage blocks.", ] },
 					]
 				},
 				{
@@ -49600,7 +49600,7 @@ const addonsList = [
 					],
 					"description": [
 						{ "type": "subheading", "data": "Description" },
-						{ "type": "paragraph", "data": [ "This is a mimic entity that sets fire to players within a 2.5 block radius. Passively inflicts fire damage nearby that aren't ore monsters.", ] },
+						{ "type": "paragraph", "data": [ "As a consequence of creating artificial ores, the $itself will attack anyone nearby who appears to desire to mine its valuable ore. Their yield doubles in comparison to their original blocks.", "This is a mimic entity that sets fire to players within a 2.5 block radius. Passively inflicts fire damage nearby that aren't ore monsters.", ] },
 					]
 				},
 				{
@@ -49627,7 +49627,7 @@ const addonsList = [
 					],
 					"description": [
 						{ "type": "subheading", "data": "Description" },
-						{ "type": "paragraph", "data": [ "This is a mimic entity that with attacks that inflict weakness for 5 seconds.", ] },
+						{ "type": "paragraph", "data": [ "As a consequence of creating artificial ores, the $itself will attack anyone nearby who appears to desire to mine its valuable ore. Their yield doubles in comparison to their original blocks.", "This is a mimic entity that with attacks that inflict weakness for 5 seconds.", ] },
 					]
 				},
 				{
@@ -49654,7 +49654,7 @@ const addonsList = [
 					],
 					"description": [
 						{ "type": "subheading", "data": "Description" },
-						{ "type": "paragraph", "data": [ "This is a mimic entity that teleports above the nearest player within a 5 block radius in order deal AOE damage in a 3 block raadius.", ] },
+						{ "type": "paragraph", "data": [ "As a consequence of creating artificial ores, the $itself will attack anyone nearby who appears to desire to mine its valuable ore. Their yield doubles in comparison to their original blocks.", "This is a mimic entity that teleports above the nearest player within a 5 block radius in order deal AOE damage in a 3 block raadius.", ] },
 					]
 				},
 				{
@@ -49681,7 +49681,7 @@ const addonsList = [
 					],
 					"description": [
 						{ "type": "subheading", "data": "Description" },
-						{ "type": "paragraph", "data": [ "This is a mimic entity that teleports to the head of the nearest player to suffocate tham and continuously deal damage and inflict blindness for 5 seconds.", ] },
+						{ "type": "paragraph", "data": [ "As a consequence of creating artificial ores, the $itself will attack anyone nearby who appears to desire to mine its valuable ore. Their yield doubles in comparison to their original blocks.", "This is a mimic entity that teleports to the head of the nearest player to suffocate tham and continuously deal damage and inflict blindness for 5 seconds.", ] },
 					]
 				}
 			],
