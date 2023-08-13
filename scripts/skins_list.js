@@ -24,7 +24,7 @@ const skinsList = [
 			{
 				"type": "paragraph",
 				"data": [
-					"This is a simple skin pack that I amde to get on the 'skin carrying something' hype, but it's just the classic Steve and Alex carrying a random block. It's completely simplistic and easy to do, and a really skin pack to develop."
+					"This is a simple skin pack that I made to get on the 'skin carrying something' hype, but it's just the classic Steve and Alex carrying a random block. It's completely simplistic and easy to do, and a skin pack I really want to develop."
 				]
 			},
 			{
@@ -68,7 +68,7 @@ const skinsList = [
 			{
 				"type": "paragraph",
 				"data": [
-					"This is a simple skin pack that I amde to get on the 'skin carrying something' hype, but it's just the classic Steve and Alex carrying a random block. It's completely simplistic and easy to do, and a really skin pack to develop."
+					"This is a simple skin pack that I made to get on the 'skin carrying something' hype, but it's just the classic Steve and Alex carrying a random block. It's completely simplistic and easy to do, and a skin pack I really want to develop."
 				]
 			},
 			{
