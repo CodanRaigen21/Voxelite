@@ -34381,6 +34381,61 @@ const addonsList = [
 					]
 				},
 				{
+					"type": "utility",
+					"name": "Cirrus Archer",
+					"id": "raigen:cirrus_archer",
+					"variants": 2,
+					"health": [
+						{
+							"name": "default",
+							"value": 48
+						},
+					],
+					"damage": [
+						{
+							"name": "melee",
+							"value": "5"
+						},
+						{
+							"name": "projectile AOE",
+							"value": "32 (mining fatigue for 10 seconds, slowness 2 for 10 seconds, and weakness 2 for 10 seconds)"
+						},
+					],
+					"immunities": [
+						"fall",
+					],
+					"weaknesses": [],
+					"targets": [
+						"non-vastatos",
+						"non-cirrus archer",
+						"non-icicle",
+						"non-polar tyrant",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Polar Tyrant",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"$itselfs are the Polar Tyrant's soldiers that aid him in battle. Some are highly resilient but all of them are very deadly all the same. They throw bombs of ice that instantly grow icicles, making it extremely lethal.",
+								"Ranged by default. Immune to fall. Projectiles inflict mining fatigue for 10 seconds, slowness 2 for 10 seconds, and weakness 2 for 10 seconds. Greater variants gain resistance 2 for 45 seconds. Normal variants last 15-25 seconds and Greater varaints last 25-45 seconds.",
+							]
+						},
+					]
+				},
+				{
 					"type": "hostile",
 					"name": "Bottom-feeder",
 					"id": "raigen:bottom_feeder",
@@ -35451,6 +35506,67 @@ const addonsList = [
 					]
 				},
 				{
+					"type": "utility",
+					"name": "Naverin Sprite",
+					"id": "raigen:naverin_sprite",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 5
+						},
+					],
+					"damage": [
+						{
+							"name": "default",
+							"value": "5 (wither for 5 seconds)"
+						},
+					],
+					"immunities": [
+						"fall",
+						"projectile",
+						"attack",
+						"suffocation",
+						"fire",
+					],
+					"weaknesses": [
+						"Soul Torch",
+					],
+					"targets": [
+						"non-naverin",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Naverin",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [
+						{
+							"name": "Arcane Powder",
+							"condition": "use Soul Torch",
+							"amount": "1-2",
+							"description": ""
+						},
+					],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"$itselfs are dangerous minions summoned by Naverins. They're powered by an enigmatic form of energy and is able to wither out anyone it touches.",
+								"Floating entity. Despawns after attacking. Inflicts wither for 5 seconds. Interact with a Soul Torch to despawn them manually and obtain 1-2 Arcane Powder. Immune to fire, fall, attack, projectile, and suffocation.",
+							]
+						},
+					]
+				},
+				{
 					"type": "hostile",
 					"name": "Quicksand",
 					"id": "raigen:quicksand",
@@ -35721,6 +35837,110 @@ const addonsList = [
 							"data": [
 								"A king of a fallen kingdom, memorialized in a tomb and hated by his own people. This king once grasped a powerful gemstone, capable of manipulating sands and other sedimentary materials. This king used it for his own selfish desires to expand his kingdom by conquering other parts of the world by turning them into deserts. Assassinated, he and his scepter is buried in the same tomb hidden in the middle of nowhere, away from civilization and his own kingdom. This gemstone enhanced his greed as it cursed him to the bone, to the point of resurrecting him if this gemstone were to be taken from him. Upon waking, he will terrorize the world and turn it into a desert. Once a tyrant, always a tyrant.",
 								"Summons healers before combat. Passively generates a sandstorm that lasts 60 seconds (1 minute) to inflict slowness for 60 seconds (1 minute). Strategic measures are required; the healers that surround the monster needs to be destroyed first. Summons live temporarily; scarabs last 15 seconds, twisting sands last 10 seconds, and husks last 15 seconds.",
+							]
+						},
+					]
+				},
+				{
+					"type": "utility",
+					"name": "Minion Scarab",
+					"id": "raigen:minion_scarab",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 2
+						},
+					],
+					"damage": [
+						{
+							"name": "default",
+							"value": "1 (hunger for 10 seconds)"
+						},
+					],
+					"immunities": [],
+					"weaknesses": [],
+					"targets": [
+						"player",
+						"villager",
+						"iron golem",
+						"snow golem",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Torrid Xeromancer",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"Disgusting insects controlled by a fallen tyrant, following his every command.",
+								"Inflicts hunger for 10 seconds. Lasts 15 seconds.",
+							]
+						},
+					]
+				},
+				{
+					"type": "utility",
+					"name": "Twisting Sands",
+					"id": "raigen:twisting_sands",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 1
+						},
+					],
+					"damage": [
+						{
+							"name": "default",
+							"value": "1"
+						},
+					],
+					"immunities": [
+						"projectiles",
+						"attack",
+					],
+					"weaknesses": [
+						"water",
+						"rain",
+					],
+					"targets": [
+						"player",
+						"villager",
+						"iron golem",
+						"snow golem",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Torrid Xeromancer",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"Dangerous winds commanded by a fallen tyrant that have the ability to shoot anyone nearby into the air.",
+								"Takes great damage from water and rain. Passively inflicts levitation 5 for 1 second to non-Torrid Xeromancers. Lasts 10 seconds.",
 							]
 						},
 					]
@@ -36404,6 +36624,149 @@ const addonsList = [
 							"data": [
 								"This monster sends a final message for those taken over by greed. Griefing the big pumpkin is its final straw. Destroying all of its pieces will break its patience and attack the greedy.",
 								"Damage dealt from vanilla axes or within the add-on is 2 times greater. Stationary by default; requires target presence before action. Strategic measures are required; the pieces of the big pumpkin needs to be destroyed first. All attacks cause AOE. Will return to its stationary state after no targets are found.",
+							]
+						},
+					]
+				},
+				{
+					"type": "inanimate",
+					"name": "Patch Warden Stalk",
+					"id": "raigen:patch_warden_stalk",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 10000
+						},
+					],
+					"damage": [
+						{
+							"name": "default",
+							"value": "0"
+						},
+					],
+					"immunities": [
+						"everything",
+					],
+					"weaknesses": [],
+					"targets": [],
+					"spawns": [
+						{
+							"name": "plains",
+							"value": "spawns at the center of a Pumpkin Patch",
+							"weight": "1",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+						{
+							"name": "unnatural",
+							"value": "an entity a Patch Warden transforms into",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"This is the stem of the giant pumpkin found at the center of a Pumpkin Patch.",
+								"Immune to everything. Spawns Giant Pumpkin Pieces (inactive) around it to mimic a giant pumpkin. Destroying all of its pieces will transform into the Patch Warden.",
+							]
+						},
+					]
+				},
+				{
+					"type": "inanimate",
+					"name": "Giant Pumpkin Piece (inactive)",
+					"id": "raigen:giant_pumpkin_piece_inactive",
+					"variants": 25,
+					"health": [
+						{
+							"name": "default",
+							"value": "?"
+						},
+					],
+					"damage": [ { "name": "default", "value": 0 } ],
+					"immunities": [],
+					"weaknesses": [],
+					"targets": [],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Spawns when the Patch Warden rests.",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"A bountiful giant pumpkin only a farmer could envy, but it really is quite threatening. Getting picked off the center of its Pumpkin Patch, its gets aggressive and rolls after those who touched it.",
+								"Inactive state. Enters active state when damaged.",
+							]
+						},
+					]
+				},
+				{
+					"type": "utility",
+					"name": "Giant Pumpkin Piece (active)",
+					"id": "raigen:giant_pumpkin_piece_active",
+					"variants": 25,
+					"health": [
+						{
+							"name": "default",
+							"value": 5
+						},
+					],
+					"damage": [
+						{
+							"name": "default",
+							"value": "2"
+						},
+					],
+					"immunities": [],
+					"weaknesses": [],
+					"targets": [],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Spawns when hurt during inactivity",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [
+						{
+							"name": "Giant Pumpkin Piece",
+							"condition": "",
+							"amount": "0-2",
+							"description": ""
+						},
+					],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"A bountiful giant pumpkin only a farmer could envy, but it really is quite threatening. Getting picked off the center of its Pumpkin Patch, its gets aggressive and rolls after those who touched it.",
+								"Active state. Minor inconvenience.",
 							]
 						},
 					]
@@ -41620,6 +41983,58 @@ const addonsList = [
 					]
 				},
 				{
+					"type": "utility",
+					"name": "Moth Minions",
+					"id": "raigen:moth_minions",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 16
+						},
+					],
+					"damage": [
+						{
+							"name": "default",
+							"value": "5"
+						},
+					],
+					"immunities": [
+						"fall",
+						"projectiles",
+					],
+					"weaknesses": [
+						"water",
+						"lava",
+					],
+					"targets": [
+						"non-moth mother",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Moth Mother",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"The offspring of the Moth Mother doesn't take kindly to those who threaten their mother. They'll moths that collectively form into groups and take anyone airborne.",
+								"Immune to projectiles and fall. Passively inflicts levitation for 3 seconds in a 0.3 block radius. Attracted to Glowstone, Lantern, and Soul Lantern. Takes great damage from water, rain, and fire. Lasts 15-30 seconds.",
+							]
+						},
+					]
+				},
+				{
 					"type": "hostile",
 					"name": "Funghoul",
 					"id": "raigen:funghoul",
@@ -41652,8 +42067,7 @@ const addonsList = [
 							"value": "8 (nausea for 20 seconds)"
 						},
 					],
-					"immunities": [
-					],
+					"immunities": [],
 					"weaknesses": [],
 					"targets": [
 						"non-undead",
@@ -42694,6 +43108,58 @@ const addonsList = [
 					]
 				},
 				{
+					"type": "utility",
+					"name": "Star Sprite",
+					"id": "raigen:star_sprite",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 100
+						},
+					],
+					"damage": [
+						{
+							"name": "default",
+							"value": "5 (wither for 5 seconds)"
+						},
+					],
+					"immunities": [
+						"fire",
+						"fall",
+						"projectiles",
+						"attack",
+						"suffocation",
+					],
+					"weaknesses": [],
+					"targets": [
+						"non-solarid",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Solarid",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"they're tiny stars summoned by Solarid. Whenever the time comes, they'll explode and burn everything around them.",
+								"Floating entity. Inflicts wither for 5 seconds. Immune to fire, fall, attack, projectiles, and suffocation. Explodes when despawning.",
+							]
+						},
+					]
+				},
+				{
 					"type": "hostile",
 					"name": "Dune Maiden",
 					"id": "raigen:dune_maiden",
@@ -43189,6 +43655,126 @@ const addonsList = [
 					]
 				},
 				{
+					"type": "utility",
+					"name": "Crow Minion",
+					"id": "raigen:crow_minion",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 10
+						},
+					],
+					"damage": [
+						{
+							"name": "default",
+							"value": "1 (weakness for 5 seconds)"
+						},
+					],
+					"immunities": [
+						"fall",
+					],
+					"weaknesses": [],
+					"targets": [
+						"non-scarecrow",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Scarecrow",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [
+						{
+							"name": "Dreadnought Feather",
+							"condition": "",
+							"amount": "0-2",
+							"description": ""
+						},
+					],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"These are the corrupted crows of the Scarecrow. It weakens whoever gets pecked by its beak.",
+								"Inflicts weakness for 5 seconds, lasts 15-20 seconds.",
+							]
+						},
+					]
+				},
+				{
+					"type": "utility",
+					"name": "Strawchild",
+					"id": "raigen:strawchild",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 12
+						},
+					],
+					"damage": [
+						{
+							"name": "default",
+							"value": "6"
+						},
+					],
+					"immunities": [],
+					"weaknesses": [],
+					"targets": [
+						"non-scarecrow",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Scarecrow",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "qny"
+						},
+					],
+					"loot": [
+						{
+							"name": "Fieldman's Fedora",
+							"condition": "",
+							"amount": "0-1",
+							"description": ""
+						},
+						{
+							"name": "Hand Scythe",
+							"condition": "",
+							"amount": "0-1",
+							"description": ""
+						},
+						{
+							"name": "Wheat",
+							"condition": "",
+							"amount": "0-3",
+							"description": ""
+						},
+					],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"The $itselfren are the small apprentices of the Scarecrow. They'll hack you down with their Hand Scythes.",
+								"Lasts 10-15 seconds.",
+							]
+						},
+					]
+				},
+				{
 					"type": "boss",
 					"name": "Infaminous",
 					"id": "raigen:infaminous",
@@ -43256,6 +43842,155 @@ const addonsList = [
 							"data": [
 								"$infaminous is a creature of legend and old wives tales, the embodiment of hunger and starvation itself. It's a tall skeleton figure with tentacles for a lower half. $itself is able to spread famine wherever it goes, discouraging warriors who dare to fight it. Even then, nothing can harm it. No weapon sharp enough will be able to harm it, but a sharp mind would. $itself is the embodiment of hunger and famine itself so the only way to harm it.. is food? Offering it food harms $itself, that's how the previous warriors were able to seal it away in a vessel hidden deep in the Jungles.",
 								"Strategic measures are required; this monster inflicts fatal hunger. Immune to everything. Attacks inflict hunger for 40 seconds. Damage dealt from vanilla food or within the add-on is based on their saturation points. Attacks are modular.",
+							]
+						},
+					]
+				},
+				{
+					"type": "utility",
+					"name": "Floor Eater",
+					"id": "raigen:floor_eater",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": "?"
+						},
+					],
+					"damage": [
+						{
+							"name": "AOE",
+							"value": "56"
+						},
+					],
+					"immunities": [
+						"everything",
+					],
+					"weaknesses": [],
+					"targets": [
+						"non-infaminous",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Infaminous",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"$itself is a pair of mighty jaws that grow beneath the floor and snaps tightly in less than a half a second.",
+								"AOE burst entity. Lasts 0.4 seconds.",
+							]
+						},
+					]
+				},
+				{
+					"type": "utility",
+					"name": "Jawbreaker",
+					"id": "raigen:jawbreaker",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 30
+						},
+					],
+					"damage": [
+						{
+							"name": "default",
+							"value": "14"
+						},
+					],
+					"immunities": [
+						"fall",
+					],
+					"weaknesses": [],
+					"targets": [
+						"non-infaminous",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Infaminous",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"They're giant monstrosities floating in the air, biting anyone it senses.",
+								"Floating entity. Lasts 15-20 seconds.",
+							]
+						},
+					]
+				},
+				{
+					"type": "utility",
+					"name": "Voracid",
+					"id": "raigen:voracid",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 12
+						},
+					],
+					"damage": [
+						{
+							"name": "default",
+							"value": "6"
+						},
+					],
+					"immunities": [],
+					"weaknesses": [],
+					"targets": [
+						"non-infaminous",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Infaminous",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [
+						{
+							"name": "Rotten Flesh",
+							"condition": "",
+							"amount": "0-2",
+							"description": ""
+						},
+					],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"These are starved victims controlled by Infaminous. So hungry, they'll take food away from your pockets. They also have the ability to burst after some time and have a small chance to use it.",
+								"Lasts 10-15 seconds. Has 1/4 chance to explode instead of simply despawning. It may take away your food items when attacking.",
 							]
 						},
 					]
@@ -43421,7 +44156,71 @@ const addonsList = [
 							"type": "paragraph",
 							"data": [
 								"The harbinger of death himself. Directly inspired by Celtic mythology, it holds the Tombcaller, a lance used to call the dead. The $itself is a gaunt figure in the distance with a gray flowing cloak that'll hunt you down. In his desperate moments, he'll strike the ground and summon his phantom steed along with the undead cavalry.",
-								"Can be cured using a Golden Apple. Howls to enhance nearby undead mobs with strength 5 for 20 seconds; limited to adults. Burns in daylight.",
+								"Stats are increased when it mounts in 2nd phase; knockback resistance is 2 times greater, health is increased by 125%, and speed is 2 times greater. Damage dealt from vanilla golden equipment and similar types within the add-on is 2 times greater. Summons allies and enhances himself when killed. Attacks are modular."
+							]
+						},
+					]
+				},
+				{
+					"type": "utility",
+					"name": "Phantom Soldier",
+					"id": "raigen:phantom_soldier",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 120
+						},
+					],
+					"damage": [
+						{
+							"name": "basic",
+							"value": "4"
+						},
+						{
+							"name": "swing side",
+							"value": "20"
+						},
+						{
+							"name": "swing up",
+							"value": "32"
+						},
+						{
+							"name": "swing down",
+							"value": "32"
+						},
+						{
+							"name": "pierce",
+							"value": "40"
+						},
+					],
+					"immunities": [],
+					"weaknesses": [
+						"Gold Weapons",
+					],
+					"targets": [
+						"non-undead",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Dullahan",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"The supportive soldiers commanded by the Dullahan to aid him in battle. They ride ghostly steeds and carry a lance.",
+								"Attacks are modular. Damage from gold equipment is 2 times greater.",
 							]
 						},
 					]
@@ -44814,6 +45613,120 @@ const addonsList = [
 					]
 				},
 				{
+					"type": "utility",
+					"name": "Kill Broth",
+					"id": "raigen:kill_broth",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 14
+						},
+					],
+					"damage": [
+						{
+							"name": "melee",
+							"value": "5"
+						},
+						{
+							"name": "ranged",
+							"value": "6"
+						},
+					],
+					"immunities": [
+						"fire",
+						"fall",
+						"suffocation",
+						"projectiles",
+					],
+					"weaknesses": [],
+					"targets": [
+						"non-inigtau",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Inigtau",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [
+						{
+							"name": "Bone",
+							"condition": "",
+							"amount": "0-3",
+							"description": ""
+						},
+					],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"A boiling broth of bones capable of shooting steams out of its bare hands. It also heats up burns the area around it.",
+								"Ranged by default. Immune to fire, fall, suffocation, and projectiles. Passively damages the area within a 2 block radius. Passively gains resistance 3 for 1 second when in contact with water or rain. Lasts 15-30 seconds.",
+							]
+						},
+					]
+				},
+				{
+					"type": "utility",
+					"name": "Singenami",
+					"id": "raigen:singenami",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 100
+						},
+					],
+					"damage": [
+						{
+							"name": "basic",
+							"value": "1"
+						},
+						{
+							"name": "AOE",
+							"value": "24"
+						},
+					],
+					"immunities": [
+						"everything",
+					],
+					"weaknesses": [],
+					"targets": [
+						"non-inigtau",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Inigtau",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"Imagine a tsunami made of boiling water hurdling towards you. It's a terrifying sight to see.",
+								"Immune to everything. Passively deals damage withing an 8 block radius. Lasts 10 seconds.",
+							]
+						},
+					]
+				},
+				{
 					"type": "hostile",
 					"name": "Cannibal",
 					"id": "raigen:cannibal",
@@ -45756,6 +46669,62 @@ const addonsList = [
 							"data": [
 								"Stars have guardians, and one of them is the $itself. A glaring ball of light floating in space, able to summon orbs to track down intrusive threats. It can cause mass destruction in a short amount of time, as it summons more orbs than any team can handle.",
 								"Summons 1-2 orbs during combat every second. Summons live temporarily; sprites last 10-25 seconds or despawn after attacking. Orbs cause explosiosn when attacking. Immune to fire.",
+							]
+						},
+					]
+				},
+				{
+					"type": "utility",
+					"name": "Cataclashm Orb",
+					"id": "raigen:cataclashm_orb",
+					"variants": 0,
+					"health": [
+						{
+							"name": "default",
+							"value": 100
+						},
+					],
+					"damage": [
+						{
+							"name": "basic",
+							"value": "1"
+						},
+						{
+							"name": "AOE",
+							"value": "4 (explosion power)"
+						},
+					],
+					"immunities": [
+						"fall",
+						"attack",
+						"explosion",
+					],
+					"weaknesses": [
+						"fire",
+					],
+					"targets": [
+						"non-cataclashm",
+					],
+					"spawns": [
+						{
+							"name": "unnatural",
+							"value": "Summoned by Cataclashm",
+							"weight": "0",
+							"difficulty": "easy - hard",
+							"brightness": "any"
+						},
+					],
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"These are orbs made of energy, summoned by Cataclashm. They're quite impervious and combusts dangerously.",
+								"They follow the nearest target and explodes when they're near enough. Lasts for 10-25 seconds."
 							]
 						},
 					]
@@ -50948,6 +51917,96 @@ const addonsList = [
 				{ "id": "raigen:white_shulker_top", "name": "White Shulker Top", "mining_time": 6, "explosion_resistance": 6, "flammable": false, "light": 0, "orientation": "none", "type": "construction", "model": false, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "$itself is a decorative block used for construction. It uses textures that you don't usually see." ] } ] },
 				{ "id": "raigen:yellow_shulker_block", "name": "Yellow Shulker Block", "mining_time": 6, "explosion_resistance": 6, "flammable": false, "light": 0, "orientation": "none", "type": "construction", "model": false, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "$itself is a decorative block used for construction. It uses textures that you don't usually see." ] } ] },
 				{ "id": "raigen:yellow_shulker_top", "name": "Yellow Shulker Top", "mining_time": 6, "explosion_resistance": 6, "flammable": false, "light": 0, "orientation": "none", "type": "construction", "model": false, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "$itself is a decorative block used for construction. It uses textures that you don't usually see." ] } ] },
+			],
+			"items": [],
+			"entities": [],
+			"structures": [],
+			"biomes": []
+		}
+	},
+	{
+    "dat_link": "https://direct-link.net/131911/useful-sides-dat",
+		"res_link": "https://direct-link.net/131911/useful-sides-res",
+		"one_link": "",
+    "title": "XPiggy Bank",
+    "flat": "xpiggy_bank",
+		"short_description": "This is the block that allows you to convert Blocks of Amethyst into a Blocks of Collected XP",
+		"tags": [
+			"blocks",
+			"survival",
+			"mechanics"
+		],
+		"uploaded_on": { "dd": 29, "mm": 3, "yyyy": 2022 },
+		"updated_on": { "dd": 12, "mm": 8, "yyyy": 2023 },
+		"version": { "main": 1, "sub": 1 },
+		"description": [
+			{
+				"type": "heading",
+				"data": "Xpiggy Bank"
+			},
+			{
+				"type": "subheading",
+				"data": "Introduction"
+			},
+			{
+				"type": "paragraph",
+				"data": [
+					"This add-on allows you to turn your XP Level into a block by converting a Block of Amethyst using an XPiggy Bank. These blocks can be interacted with by anyone and gain the full amount of level they store. This add-on is very survival friendly as it uses purely vanilla ingredients."
+				]
+			},
+			{
+				"type": "subheading",
+				"data": "Mechanics"
+			},
+			{
+				"type": "paragraph",
+				"data": [
+					"The XP blocks store absolute levels. Interact with them to obtain the XP they store, and make sure not to break them because the XP will be lost."
+				]
+			},
+			{
+				"type": "image",
+				"data": [ "blocks.png" ]
+			},
+			{
+				"type": "compound",
+				"ratio": {
+					"paragraph": "50%",
+					"image": "50%"
+				},
+				"direction": "PI",
+				"data": {
+					"paragraph": "These blocks glow in the dark and their light level depends on the amount of XP they store.",
+					"image": "glow.png"
+				}
+			},
+			{
+				"type": "paragraph",
+				"data": [ "To see even more specific details, please view the other tabs." ]
+			}
+		],
+		"crafting": [
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/iron_block", "minecraft/cauldron", "minecraft/iron_block",
+					"minecraft/iron_block", "minecraft/cauldron", "minecraft/iron_block",
+					"minecraft/book", "minecraft/book", "minecraft/book"
+				],
+				"result": "xpiggy_bank/xpiggy_bank",
+				"amount": 1
+			}
+		],
+		"content": {
+			"blocks": [
+				{ "id": "raigen:xpiggy_bank", "name": "XPiggy Bank", "model": false, "loot": "default", "mining_time": 1.5, "explosion_resistance": 3, "flammable": false, "light": 0, "orientation": "cardinal", "type": "items", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "A block used to convert your experience levels into blocks using a Block of Amethyst. You can switch the conversion amount by sneaking and interacting with it. Interact using a Block of Amethyst to complete the conversion." ] } ] },
+				{ "id": "raigen:collected_xp_10", "name": "Collected XP 10", "model": false, "loot": [ { "name": "XP Levels", "condition": "When interacted with", "amount": "10", "description": "" }, { "name": "None", "condition": "When broken", "amount": "nothing", "description": "" } ], "mining_time": 0.1, "explosion_resistance": 0.1, "flammable": false, "light": 0, "orientation": "none", "type": "items", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "Interacting with this block will give you the amount of experience levels it holds. Breaking it will destroy the experience levels." ] } ] },
+				{ "id": "raigen:collected_xp_20", "name": "Collected XP 20", "model": false, "loot": [ { "name": "XP Levels", "condition": "When interacted with", "amount": "20", "description": "" }, { "name": "None", "condition": "When broken", "amount": "nothing", "description": "" } ], "mining_time": 0.1, "explosion_resistance": 0.1, "flammable": false, "light": 0, "orientation": "none", "type": "items", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "Interacting with this block will give you the amount of experience levels it holds. Breaking it will destroy the experience levels." ] } ] },
+				{ "id": "raigen:collected_xp_30", "name": "Collected XP 30", "model": false, "loot": [ { "name": "XP Levels", "condition": "When interacted with", "amount": "30", "description": "" }, { "name": "None", "condition": "When broken", "amount": "nothing", "description": "" } ], "mining_time": 0.1, "explosion_resistance": 0.1, "flammable": false, "light": 0, "orientation": "none", "type": "items", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "Interacting with this block will give you the amount of experience levels it holds. Breaking it will destroy the experience levels." ] } ] },
+				{ "id": "raigen:collected_xp_40", "name": "Collected XP 40", "model": false, "loot": [ { "name": "XP Levels", "condition": "When interacted with", "amount": "40", "description": "" }, { "name": "None", "condition": "When broken", "amount": "nothing", "description": "" } ], "mining_time": 0.1, "explosion_resistance": 0.1, "flammable": false, "light": 0, "orientation": "none", "type": "items", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "Interacting with this block will give you the amount of experience levels it holds. Breaking it will destroy the experience levels." ] } ] },
+				{ "id": "raigen:collected_xp_50", "name": "Collected XP 50", "model": false, "loot": [ { "name": "XP Levels", "condition": "When interacted with", "amount": "50", "description": "" }, { "name": "None", "condition": "When broken", "amount": "nothing", "description": "" } ], "mining_time": 0.1, "explosion_resistance": 0.1, "flammable": false, "light": 0, "orientation": "none", "type": "items", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "Interacting with this block will give you the amount of experience levels it holds. Breaking it will destroy the experience levels." ] } ] }
 			],
 			"items": [],
 			"entities": [],
