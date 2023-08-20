@@ -51925,8 +51925,8 @@ const addonsList = [
 		}
 	},
 	{
-    "dat_link": "https://direct-link.net/131911/useful-sides-dat",
-		"res_link": "https://direct-link.net/131911/useful-sides-res",
+    "dat_link": "https://link-target.net/131911/xpiggy-bank-dat",
+		"res_link": "https://link-hub.net/131911/xpiggy-bank-res",
 		"one_link": "",
     "title": "XPiggy Bank",
     "flat": "xpiggy_bank",
@@ -51942,7 +51942,7 @@ const addonsList = [
 		"description": [
 			{
 				"type": "heading",
-				"data": "Xpiggy Bank"
+				"data": "XPiggy Bank"
 			},
 			{
 				"type": "subheading",
@@ -52015,24 +52015,24 @@ const addonsList = [
 		}
 	},
 	{
-    "dat_link": "https://direct-link.net/131911/useful-sides-dat",
-		"res_link": "https://direct-link.net/131911/useful-sides-res",
+    "dat_link": "https://link-target.net/131911/tankers-dat",
+		"res_link": "https://link-target.net/131911/tankers-res",
 		"one_link": "",
-    "title": "XPiggy Bank",
-    "flat": "xpiggy_bank",
-		"short_description": "This is the block that allows you to convert Blocks of Amethyst into a Blocks of Collected XP",
+    "title": "Tankers",
+    "flat": "tankers",
+		"short_description": "It adds blocks that can store items up to 20 times.",
 		"tags": [
 			"blocks",
 			"survival",
 			"mechanics"
 		],
-		"uploaded_on": { "dd": 29, "mm": 3, "yyyy": 2022 },
-		"updated_on": { "dd": 12, "mm": 8, "yyyy": 2023 },
-		"version": { "main": 1, "sub": 1 },
+		"uploaded_on": { "dd": 17, "mm": 5, "yyyy": 2020 },
+		"updated_on": { "dd": 19, "mm": 8, "yyyy": 2023 },
+		"version": { "main": 1, "sub": 2 },
 		"description": [
 			{
 				"type": "heading",
-				"data": "Xpiggy Bank"
+				"data": "Tankers"
 			},
 			{
 				"type": "subheading",
@@ -52041,22 +52041,12 @@ const addonsList = [
 			{
 				"type": "paragraph",
 				"data": [
-					"This add-on allows you to turn your XP Level into a block by converting a Block of Amethyst using an XPiggy Bank. These blocks can be interacted with by anyone and gain the full amount of level they store. This add-on is very survival friendly as it uses purely vanilla ingredients."
+					"The Tankers add-on allows you to store liquids in a block up to 20 times. This means you're able to carry 1,280 buckets of water in one hand. Their purpose is used for saving space for storage. They're quite easy to use and may be a bit expensive on the crafting side, the tradeoff is satisfying otherwise."
 				]
 			},
 			{
 				"type": "subheading",
 				"data": "Mechanics"
-			},
-			{
-				"type": "paragraph",
-				"data": [
-					"The XP blocks store absolute levels. Interact with them to obtain the XP they store, and make sure not to break them because the XP will be lost."
-				]
-			},
-			{
-				"type": "image",
-				"data": [ "blocks.png" ]
 			},
 			{
 				"type": "compound",
@@ -52066,9 +52056,17 @@ const addonsList = [
 				},
 				"direction": "PI",
 				"data": {
-					"paragraph": "These blocks glow in the dark and their light level depends on the amount of XP they store.",
-					"image": "glow.png"
+					"paragraph": "All of the containers are able to store an item's content twenty times. This allows you to easily carry more than a thousand Water Buckets, Bottle o' Enchanting, Dragon's Breath, etc. This causes the add-on to reach more than 5,000 blocks so it might be a bit crunchy on the performance side, especially when loading the add-on for the first time.",
+					"image": "1280.png"
 				}
+			},
+			{
+				"type": "image",
+				"data": [ "levels.png" ]
+			},
+			{
+				"type": "image",
+				"data": [ "filled.png" ]
 			},
 			{
 				"type": "paragraph",
@@ -52081,22 +52079,619 @@ const addonsList = [
 				"tool": "minecraft/crafting_table",
 				"genre": "blocks",
 				"pattern": [
-					"minecraft/iron_block", "minecraft/cauldron", "minecraft/iron_block",
-					"minecraft/iron_block", "minecraft/cauldron", "minecraft/iron_block",
-					"minecraft/book", "minecraft/book", "minecraft/book"
+					"minecraft/anvil", "minecraft/anvil", "minecraft/anvil",
+					"minecraft/anvil", "minecraft/cauldron", "minecraft/anvil",
+					"minecraft/anvil", "minecraft/anvil", "minecraft/anvil"
 				],
-				"result": "xpiggy_bank/xpiggy_bank",
+				"result": "tankers/iron_tanker_empty",
 				"amount": 1
-			}
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/glass", "minecraft/glass", "minecraft/glass",
+					"minecraft/glass", "minecraft/cauldron", "minecraft/glass",
+					"minecraft/glass", "minecraft/glass", "minecraft/glass"
+				],
+				"result": "tankers/glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/copper", "minecraft/copper", "minecraft/copper",
+					"minecraft/copper", "minecraft/cauldron", "minecraft/copper",
+					"minecraft/copper", "minecraft/copper", "minecraft/copper"
+				],
+				"result": "tankers/copper_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/exposed_cut_copper", "minecraft/exposed_cut_copper", "minecraft/exposed_cut_copper",
+					"minecraft/exposed_cut_copper", "minecraft/cauldron", "minecraft/exposed_cut_copper",
+					"minecraft/exposed_cut_copper", "minecraft/exposed_cut_copper", "minecraft/exposed_cut_copper"
+				],
+				"result": "tankers/exposed_copper_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/weathered_cut_copper", "minecraft/weathered_cut_copper", "minecraft/weathered_cut_copper",
+					"minecraft/weathered_cut_copper", "minecraft/cauldron", "minecraft/weathered_cut_copper",
+					"minecraft/weathered_cut_copper", "minecraft/weathered_cut_copper", "minecraft/weathered_cut_copper"
+				],
+				"result": "tankers/weathered_copper_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/oxidized_cut_copper", "minecraft/oxidized_cut_copper", "minecraft/oxidized_cut_copper",
+					"minecraft/oxidized_cut_copper", "minecraft/cauldron", "minecraft/oxidized_cut_copper",
+					"minecraft/oxidized_cut_copper", "minecraft/oxidized_cut_copper", "minecraft/oxidized_cut_copper"
+				],
+				"result": "tankers/oxidized_copper_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/waxed_crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/waxed_cut_copper", "minecraft/waxed_cut_copper", "minecraft/waxed_cut_copper",
+					"minecraft/waxed_cut_copper", "minecraft/cauldron", "minecraft/waxed_cut_copper",
+					"minecraft/waxed_cut_copper", "minecraft/waxed_cut_copper", "minecraft/waxed_cut_copper"
+				],
+				"result": "tankers/waxed_copper_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/waxed_crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/waxed_exposed_cut_copper", "minecraft/waxed_exposed_cut_copper", "minecraft/waxed_exposed_cut_copper",
+					"minecraft/waxed_exposed_cut_copper", "minecraft/cauldron", "minecraft/waxed_exposed_cut_copper",
+					"minecraft/waxed_exposed_cut_copper", "minecraft/waxed_exposed_cut_copper", "minecraft/waxed_exposed_cut_copper"
+				],
+				"result": "tankers/waxed_exposed_copper_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/waxed_crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/waxed_weathered_cut_copper", "minecraft/waxed_weathered_cut_copper", "minecraft/waxed_weathered_cut_copper",
+					"minecraft/waxed_weathered_cut_copper", "minecraft/cauldron", "minecraft/waxed_weathered_cut_copper",
+					"minecraft/waxed_weathered_cut_copper", "minecraft/waxed_weathered_cut_copper", "minecraft/waxed_weathered_cut_copper"
+				],
+				"result": "tankers/waxed_weathered_copper_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/waxed_crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/waxed_oxidized_cut_copper", "minecraft/waxed_oxidized_cut_copper", "minecraft/waxed_oxidized_cut_copper",
+					"minecraft/waxed_oxidized_cut_copper", "minecraft/cauldron", "minecraft/waxed_oxidized_cut_copper",
+					"minecraft/waxed_oxidized_cut_copper", "minecraft/waxed_oxidized_cut_copper", "minecraft/waxed_oxidized_cut_copper"
+				],
+				"result": "tankers/waxed_oxidized_copper_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/black_stained_glass", "minecraft/black_stained_glass", "minecraft/black_stained_glass",
+					"minecraft/black_stained_glass", "minecraft/cauldron", "minecraft/black_stained_glass",
+					"minecraft/black_stained_glass", "minecraft/black_stained_glass", "minecraft/black_stained_glass"
+				],
+				"result": "tankers/black_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/blue_stained_glass", "minecraft/blue_stained_glass", "minecraft/blue_stained_glass",
+					"minecraft/blue_stained_glass", "minecraft/cauldron", "minecraft/blue_stained_glass",
+					"minecraft/blue_stained_glass", "minecraft/blue_stained_glass", "minecraft/blue_stained_glass"
+				],
+				"result": "tankers/blue_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/brown_stained_glass", "minecraft/brown_stained_glass", "minecraft/brown_stained_glass",
+					"minecraft/brown_stained_glass", "minecraft/cauldron", "minecraft/brown_stained_glass",
+					"minecraft/brown_stained_glass", "minecraft/brown_stained_glass", "minecraft/brown_stained_glass"
+				],
+				"result": "tankers/brown_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/cyan_stained_glass", "minecraft/cyan_stained_glass", "minecraft/cyan_stained_glass",
+					"minecraft/cyan_stained_glass", "minecraft/cauldron", "minecraft/cyan_stained_glass",
+					"minecraft/cyan_stained_glass", "minecraft/cyan_stained_glass", "minecraft/cyan_stained_glass"
+				],
+				"result": "tankers/cyan_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/gray_stained_glass", "minecraft/gray_stained_glass", "minecraft/gray_stained_glass",
+					"minecraft/gray_stained_glass", "minecraft/cauldron", "minecraft/gray_stained_glass",
+					"minecraft/gray_stained_glass", "minecraft/gray_stained_glass", "minecraft/gray_stained_glass"
+				],
+				"result": "tankers/gray_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/green_stained_glass", "minecraft/green_stained_glass", "minecraft/green_stained_glass",
+					"minecraft/green_stained_glass", "minecraft/cauldron", "minecraft/green_stained_glass",
+					"minecraft/green_stained_glass", "minecraft/green_stained_glass", "minecraft/green_stained_glass"
+				],
+				"result": "tankers/green_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/light_blue_stained_glass", "minecraft/light_blue_stained_glass", "minecraft/light_blue_stained_glass",
+					"minecraft/light_blue_stained_glass", "minecraft/cauldron", "minecraft/light_blue_stained_glass",
+					"minecraft/light_blue_stained_glass", "minecraft/light_blue_stained_glass", "minecraft/light_blue_stained_glass"
+				],
+				"result": "tankers/light_blue_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/lime_stained_glass", "minecraft/lime_stained_glass", "minecraft/lime_stained_glass",
+					"minecraft/lime_stained_glass", "minecraft/cauldron", "minecraft/lime_stained_glass",
+					"minecraft/lime_stained_glass", "minecraft/lime_stained_glass", "minecraft/lime_stained_glass"
+				],
+				"result": "tankers/lime_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/magenta_stained_glass", "minecraft/magenta_stained_glass", "minecraft/magenta_stained_glass",
+					"minecraft/magenta_stained_glass", "minecraft/cauldron", "minecraft/magenta_stained_glass",
+					"minecraft/magenta_stained_glass", "minecraft/magenta_stained_glass", "minecraft/magenta_stained_glass"
+				],
+				"result": "tankers/magenta_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/orange_stained_glass", "minecraft/orange_stained_glass", "minecraft/orange_stained_glass",
+					"minecraft/orange_stained_glass", "minecraft/cauldron", "minecraft/orange_stained_glass",
+					"minecraft/orange_stained_glass", "minecraft/orange_stained_glass", "minecraft/orange_stained_glass"
+				],
+				"result": "tankers/orange_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/pink_stained_glass", "minecraft/pink_stained_glass", "minecraft/pink_stained_glass",
+					"minecraft/pink_stained_glass", "minecraft/cauldron", "minecraft/pink_stained_glass",
+					"minecraft/pink_stained_glass", "minecraft/pink_stained_glass", "minecraft/pink_stained_glass"
+				],
+				"result": "tankers/pink_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/purple_stained_glass", "minecraft/purple_stained_glass", "minecraft/purple_stained_glass",
+					"minecraft/purple_stained_glass", "minecraft/cauldron", "minecraft/purple_stained_glass",
+					"minecraft/purple_stained_glass", "minecraft/purple_stained_glass", "minecraft/purple_stained_glass"
+				],
+				"result": "tankers/purple_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/red_stained_glass", "minecraft/red_stained_glass", "minecraft/red_stained_glass",
+					"minecraft/red_stained_glass", "minecraft/cauldron", "minecraft/red_stained_glass",
+					"minecraft/red_stained_glass", "minecraft/red_stained_glass", "minecraft/red_stained_glass"
+				],
+				"result": "tankers/red_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/light_gray_stained_glass", "minecraft/light_gray_stained_glass", "minecraft/light_gray_stained_glass",
+					"minecraft/light_gray_stained_glass", "minecraft/cauldron", "minecraft/light_gray_stained_glass",
+					"minecraft/light_gray_stained_glass", "minecraft/light_gray_stained_glass", "minecraft/light_gray_stained_glass"
+				],
+				"result": "tankers/silver_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/white_stained_glass", "minecraft/white_stained_glass", "minecraft/white_stained_glass",
+					"minecraft/white_stained_glass", "minecraft/cauldron", "minecraft/white_stained_glass",
+					"minecraft/white_stained_glass", "minecraft/white_stained_glass", "minecraft/white_stained_glass"
+				],
+				"result": "tankers/white_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/yellow_stained_glass", "minecraft/yellow_stained_glass", "minecraft/yellow_stained_glass",
+					"minecraft/yellow_stained_glass", "minecraft/cauldron", "minecraft/yellow_stained_glass",
+					"minecraft/yellow_stained_glass", "minecraft/yellow_stained_glass", "minecraft/yellow_stained_glass"
+				],
+				"result": "tankers/yellow_stained_glass_tanker_empty",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "blocks",
+				"pattern": [
+					"minecraft/tinted_glass", "minecraft/tinted_glass", "minecraft/tinted_glass",
+					"minecraft/tinted_glass", "minecraft/cauldron", "minecraft/tinted_glass",
+					"minecraft/tinted_glass", "minecraft/tinted_glass", "minecraft/tinted_glass"
+				],
+				"result": "tankers/tinted_glass_tanker_empty",
+				"amount": 1
+			},
 		],
 		"content": {
 			"blocks": [
-				{ "id": "raigen:xpiggy_bank", "name": "XPiggy Bank", "model": false, "loot": "default", "mining_time": 1.5, "explosion_resistance": 3, "flammable": false, "light": 0, "orientation": "cardinal", "type": "items", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "A block used to convert your experience levels into blocks using a Block of Amethyst. You can switch the conversion amount by sneaking and interacting with it. Interact using a Block of Amethyst to complete the conversion." ] } ] },
-				{ "id": "raigen:collected_xp_10", "name": "Collected XP 10", "model": false, "loot": [ { "name": "XP Levels", "condition": "When interacted with", "amount": "10", "description": "" }, { "name": "None", "condition": "When broken", "amount": "nothing", "description": "" } ], "mining_time": 0.1, "explosion_resistance": 0.1, "flammable": false, "light": 0, "orientation": "none", "type": "items", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "Interacting with this block will give you the amount of experience levels it holds. Breaking it will destroy the experience levels." ] } ] },
-				{ "id": "raigen:collected_xp_20", "name": "Collected XP 20", "model": false, "loot": [ { "name": "XP Levels", "condition": "When interacted with", "amount": "20", "description": "" }, { "name": "None", "condition": "When broken", "amount": "nothing", "description": "" } ], "mining_time": 0.1, "explosion_resistance": 0.1, "flammable": false, "light": 0, "orientation": "none", "type": "items", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "Interacting with this block will give you the amount of experience levels it holds. Breaking it will destroy the experience levels." ] } ] },
-				{ "id": "raigen:collected_xp_30", "name": "Collected XP 30", "model": false, "loot": [ { "name": "XP Levels", "condition": "When interacted with", "amount": "30", "description": "" }, { "name": "None", "condition": "When broken", "amount": "nothing", "description": "" } ], "mining_time": 0.1, "explosion_resistance": 0.1, "flammable": false, "light": 0, "orientation": "none", "type": "items", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "Interacting with this block will give you the amount of experience levels it holds. Breaking it will destroy the experience levels." ] } ] },
-				{ "id": "raigen:collected_xp_40", "name": "Collected XP 40", "model": false, "loot": [ { "name": "XP Levels", "condition": "When interacted with", "amount": "40", "description": "" }, { "name": "None", "condition": "When broken", "amount": "nothing", "description": "" } ], "mining_time": 0.1, "explosion_resistance": 0.1, "flammable": false, "light": 0, "orientation": "none", "type": "items", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "Interacting with this block will give you the amount of experience levels it holds. Breaking it will destroy the experience levels." ] } ] },
-				{ "id": "raigen:collected_xp_50", "name": "Collected XP 50", "model": false, "loot": [ { "name": "XP Levels", "condition": "When interacted with", "amount": "50", "description": "" }, { "name": "None", "condition": "When broken", "amount": "nothing", "description": "" } ], "mining_time": 0.1, "explosion_resistance": 0.1, "flammable": false, "light": 0, "orientation": "none", "type": "items", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "Interacting with this block will give you the amount of experience levels it holds. Breaking it will destroy the experience levels." ] } ] }
+				{
+					"type": "items",
+					"name": "Iron Tanker",
+					"id": "raigen:iron_tanker_empty",
+					"model": false,
+					"mining_time": 20,
+					"explosion_resistance": 5600,
+					"flammable": false,
+					"orientation": "none",
+					"light": 0,
+					"loot": "default",
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"This block is extremely explosion resistant, so storing anything in this container would be safe.",
+							]
+						},
+					]
+				},
+				{
+					"type": "items",
+					"name": "Glass Tanker",
+					"id": "raigen:glass_tanker_empty",
+					"model": false,
+					"mining_time": 0.25,
+					"explosion_resistance": 1,
+					"flammable": false,
+					"orientation": "none",
+					"light": 0,
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed. It's also available in every vanilla color.",
+							]
+						},
+						{
+							"type": "image",
+							"data": [ "stained.png" ]
+						},
+					]
+				},
+				{
+					"type": "items",
+					"name": "Tinted Glass Tanker",
+					"id": "raigen:tinted_glass_tanker_empty",
+					"model": false,
+					"mining_time": 0.25,
+					"explosion_resistance": 1,
+					"flammable": false,
+					"orientation": "none",
+					"light": 0,
+					"loot": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"Unlike its sensitive counterparts, it's able to store data when destroyed and will drop like a regular tanker.",
+								"This is a tanker that's able to hide its content. It won't glow like any other tanker when filled with lava.",
+							]
+						},
+						{
+							"type": "image",
+							"data": [
+								"tinted.png",
+							]
+						},
+					]
+				},
+				{ "type": "items", "name": "Black Stained Glass Tanker", "id": "raigen:black_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Blue Stained Glass Tanker", "id": "raigen:blue_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Brown Stained Glass Tanker", "id": "raigen:brown_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Cyan Stained Glass Tanker", "id": "raigen:cyan_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Gray Stained Glass Tanker", "id": "raigen:gray_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Green Stained Glass Tanker", "id": "raigen:green_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Light Blue Stained Glass Tanker", "id": "raigen:light_blue_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Lime Stained Glass Tanker", "id": "raigen:lime_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Magenta Stained Glass Tanker", "id": "raigen:magenta_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Orange Stained Glass Tanker", "id": "raigen:orange_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Pink Stained Glass Tanker", "id": "raigen:pink_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Purple Stained Glass Tanker", "id": "raigen:purple_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Red Stained Glass Tanker", "id": "raigen:red_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Silver Stained Glass Tanker", "id": "raigen:silver_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "White Stained Glass Tanker", "id": "raigen:white_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{ "type": "items", "name": "Yellow Stained Glass Tanker", "id": "raigen:yellow_stained_glass_tanker_empty", "model": false, "mining_time": 0.25, "explosion_resistance": 1, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [  { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This tanker will lose its data when destroyed and will NOT drop anything when mined or destroyed.", ] }, ] },
+				{
+					"type": "items",
+					"name": "Copper Tanker",
+					"id": "raigen:copper_tanker_empty",
+					"model": false,
+					"mining_time": 10,
+					"explosion_resistance": 6,
+					"flammable": false,
+					"orientation": "none",
+					"light": 0,
+					"loot": "default",
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"Like any other copper-type block, it can oxidize and waxed. You can retain the oxidization process by using honeycomb.",
+							]
+						},
+					]
+				},
+				{
+					"type": "items",
+					"name": "Exposed Copper Tanker",
+					"id": "raigen:exposed_copper_tanker_empty",
+					"model": false,
+					"mining_time": 10,
+					"explosion_resistance": 6,
+					"flammable": false,
+					"orientation": "none",
+					"light": 0,
+					"loot": "default",
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"Like any other copper-type block, it can oxidize and waxed. You can remove the oxidization process by using axes. You can retain the oxidization process by using honeycomb.",
+							]
+						},
+					]
+				},
+				{
+					"type": "items",
+					"name": "Weathered Copper Tanker",
+					"id": "raigen:weathered_copper_tanker_empty",
+					"model": false,
+					"mining_time": 10,
+					"explosion_resistance": 6,
+					"flammable": false,
+					"orientation": "none",
+					"light": 0,
+					"loot": "default",
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"Like any other copper-type block, it can oxidize and waxed. You can remove the oxidization process by using axes. You can retain the oxidization process by using honeycomb.",
+							]
+						},
+					]
+				},
+				{
+					"type": "items",
+					"name": "Exposed Copper Tanker",
+					"id": "raigen:exposed_copper_tanker_empty",
+					"model": false,
+					"mining_time": 10,
+					"explosion_resistance": 6,
+					"flammable": false,
+					"orientation": "none",
+					"light": 0,
+					"loot": "default",
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"Like any other copper-type block, it can oxidize and waxed. You can remove the oxidization process by using axes. You can retain the oxidization process by using honeycomb.",
+							]
+						},
+					]
+				},
+				{
+					"type": "items",
+					"name": "Waxed Copper Tanker",
+					"id": "raigen:waxed_copper_tanker_empty",
+					"model": false,
+					"mining_time": 10,
+					"explosion_resistance": 6,
+					"flammable": false,
+					"orientation": "none",
+					"light": 0,
+					"loot": "default",
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"Like any other waxed copper-type block, it won't oxidize and its waxed removed. You can remove the waxe by using axes.",
+							]
+						},
+					]
+				},
+				{
+					"type": "items",
+					"name": "Waxed Exposed Copper Tanker",
+					"id": "raigen:waxed_exposed_copper_tanker_empty",
+					"model": false,
+					"mining_time": 10,
+					"explosion_resistance": 6,
+					"flammable": false,
+					"orientation": "none",
+					"light": 0,
+					"loot": "default",
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"Like any other waxed copper-type block, it won't oxidize and its waxed removed. You can remove the waxe by using axes.",
+							]
+						},
+					]
+				},
+				{
+					"type": "items",
+					"name": "Waxed Weathered Copper Tanker",
+					"id": "raigen:waxed_weathered_copper_tanker_empty",
+					"model": false,
+					"mining_time": 10,
+					"explosion_resistance": 6,
+					"flammable": false,
+					"orientation": "none",
+					"light": 0,
+					"loot": "default",
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"Like any other waxed copper-type block, it won't oxidize and its waxed removed. You can remove the waxe by using axes.",
+							]
+						},
+					]
+				},
+				{
+					"type": "items",
+					"name": "Waxed Exposed Copper Tanker",
+					"id": "raigen:waxed_exposed_copper_tanker_empty",
+					"model": false,
+					"mining_time": 10,
+					"explosion_resistance": 6,
+					"flammable": false,
+					"orientation": "none",
+					"light": 0,
+					"loot": "default",
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"Like any other waxed copper-type block, it won't oxidize and its waxed removed. You can remove the waxe by using axes.",
+							]
+						},
+					]
+				},
 			],
 			"items": [],
 			"entities": [],
