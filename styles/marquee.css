@@ -30,11 +30,9 @@
 	z-index:-1;
 	height:600px;
 	width:100%;
-	scale:1.157;
 	background-image:url('../images/miscellaneous/carousel.png');
 	background-size:50%;
 	background-repeat-y:no-repeat;
-	background-position-y:50%;
 	animation:marquee 10s linear infinite;
 }
 @keyframes marquee{

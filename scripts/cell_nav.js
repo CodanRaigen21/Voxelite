@@ -580,7 +580,7 @@ cells.forEach(c => {
 							}
 						}
 						let ingT = document.createElement('p');
-						ingT.textContent = 'Tool: Crafting Table';
+						ingT.textContent = `Tool: ${cin.tool.split('/')[1].replaceAll('_', ' ')}`;
 						pInfo.appendChild(ingT);
 						pInfo.appendChild(ings);
 					}
