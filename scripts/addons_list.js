@@ -47927,6 +47927,7 @@ const addonsList = [
 		"tags": [
 			"blocks",
 			"decorative",
+			"mechanics",
 			"expansion"
 		],
 		"uploaded_on": { "dd": 20, "mm": 6, "yyyy": 2021 },
@@ -52759,7 +52760,7 @@ const addonsList = [
 				},
 				"direction": "PI",
 				"data": {
-					"paragraph": "The build demonstrates Awnings and Scattered Paths used in an urban setting. There are two types of awnings that are featured in the add-on, round and shed types. The scatteed paths are just stones that mimic carpets, most suitable for outdoors.",
+					"paragraph": "The build demonstrates Awnings and Scattered Paths used in an urban setting. There are two types of awnings that are featured in the add-on, round and shed types. The scattered paths are just stones that mimic carpets, most suitable for outdoors.",
 					"image": "bricks.png"
 				}
 			},
@@ -52795,7 +52796,7 @@ const addonsList = [
 				},
 				"direction": "PI",
 				"data": {
-					"paragraph": "Tatami Mats were pretty hard to code, their logic being too exclusive. The Shoji Screens were quite hard to handle too but they're suplicate code from a different block from the same add-on. The Tatami Mats can only have a 1:2 aspect ratio to conserve whatever sanity I had left from attempting to develop them infinitely scalable.",
+					"paragraph": "Tatami Mats were pretty hard to code, their logic being too exclusive. The Shoji Screens were quite hard to handle too but they're duplicate code from a different block from the same add-on. The Tatami Mats can only have a 1:2 aspect ratio to conserve whatever sanity I had left from attempting to develop them infinitely scalable.",
 					"image": "screens.png"
 				}
 			},
@@ -56755,6 +56756,205 @@ const addonsList = [
 				
 				{ "type": "items", "name": "Shoji Screen", "id": "raigen:shoji_screen_item", "model": true, "max_stack": 64, "offhand": false, "armor": 0, "durability": 0, "cooldown": 0, "nutrition": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that mimics Glass Panes and Iron Bars." ] } ] },
 				{ "type": "items", "name": "Petals Shoji", "id": "raigen:petals_shoji_item", "model": true, "max_stack": 64, "offhand": false, "armor": 0, "durability": 0, "cooldown": 0, "nutrition": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that mimics Glass Panes and Iron Bars." ] } ] }
+			],
+			"entities": [],
+			"structures": [],
+			"biomes": []
+		}
+	},
+	{
+    "dat_link": "https://link-hub.net/131911/oresight-dat",
+		"res_link": "https://link-hub.net/131911/oresight-res",
+		"one_link": "",
+    "title": "Oresight",
+    "flat": "oresight",
+		"short_description": "It adds an item that temporarily turns terrain blocks invisible.",
+		"tags": [
+			"items",
+			"blocks",
+			"survival",
+			"mechanics"
+		],
+		"uploaded_on": { "dd": 2, "mm": 9, "yyyy": 2020 },
+		"updated_on": { "dd": 11, "mm": 9, "yyyy": 2023 },
+		"version": { "main": 1, "sub": 2 },
+		"description": [
+			{
+				"type": "heading",
+				"data": "Oresight"
+			},
+			{
+				"type": "subheading",
+				"data": "Introduction"
+			},
+			{
+				"type": "paragraph",
+				"data": [
+					"Mining can be hard and it could get annoying when trying to find ores, especially when you need them the most and they're not readily available. Despite these hardships, you're still able to collect minerals without any help.",
+					"This add-on should be able to help you locate ores faster by turning stones invisible. The stone remains intact but it's completely unbreakeable, so you have to wait 8 to 10 seconds to mine them."
+				]
+			},
+			{
+				"type": "subheading",
+				"data": "Content"
+			},
+			{
+				"type": "paragraph",
+				"data": [ "The add-on also adds another use for Amethyst Shards by adding them to the Oresight Eye's crafting recipe." ]
+			},
+			{
+				"type": "subsubheading",
+				"data": "Terrain blocks that'll turn invisible:"
+			},
+			{
+				"type": "unordered_list",
+				"data": [
+					{
+						"list": [
+							"Stone",
+							"Granite",
+							"Diorite",
+							"Andesite",
+							"Blackstone",
+							"Deepslate",
+							"Dripstone"
+						]
+					},
+					{
+						"list": [
+							"Netherrack",
+							"Tuff",
+							"Calcite",
+							"Smooth Basalt",
+							"Sandstone",
+							"Red Sandstone"
+						]
+					}
+				]
+			},
+			{
+				"type": "subsubheading",
+				"data": "Mineral blocks that'll glow:"
+			},
+			{
+				"type": "unordered_list",
+				"data": [
+					{
+						"list": [
+							"Coal Ore",
+							"Copper Ore",
+							"Iron Ore",
+							"Gold Ore",
+							"Lapis Ore",
+							"Diamond Ore"
+						]
+					},
+					{
+						"list": [
+							"Emerald Ore",
+							"Deepslate Coal Ore",
+							"Deepslate Copper Ore",
+							"Deepslate Iron Ore",
+							"Deepslate Gold Ore",
+							"Deepslate Lapis Ore"
+						]
+					},
+					{
+						"list": [
+							"Deepslate Diamond Ore",
+							"Deepslate Emerald Ore",
+							"Nether Gold Ore",
+							"Quartz Ore",
+							"Gilded Blackstone",
+							"Ancient Debris"
+						]
+					}
+				]
+			}
+		],
+		"crafting": [
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "items",
+				"pattern": [
+					"minecraft/ender_eye", "minecraft/amethyst_shard", "minecraft/lapis_lazuli",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "oresight/oresight_eye",
+				"amount": 1
+			}
+		],
+		"content": {
+			"blocks": [
+				{ "type": "commands", "name": "Oresight Stone", "id": "raigen:oresight_stone", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make the area visible. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Granite", "id": "raigen:oresight_granite", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make the area visible. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Diorite", "id": "raigen:oresight_diorite", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make the area visible. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Andesite", "id": "raigen:oresight_andesite", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make the area visible. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Blackstone", "id": "raigen:oresight_blackstone", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make the area visible. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Deepslate", "id": "raigen:oresight_deepslate", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make the area visible. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Netherrack", "id": "raigen:oresight_netherrack", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make the area visible. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Dripstone", "id": "raigen:oresight_dripstone", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make the area visible. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Tuff", "id": "raigen:oresight_tuff", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make the area visible. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Calcite", "id": "raigen:oresight_calcite", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make the area visible. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Smooth Basalt", "id": "raigen:oresight_smooth_basalt", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make the area visible. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Sandstone", "id": "raigen:oresight_sandstone", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make the area visible. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Red Sandstone", "id": "raigen:oresight_red_sandstone", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 0, "loot": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make the area visible. It'll return to its original state in 8-10 seconds." ] } ] },
+				
+				{ "type": "commands", "name": "Oresight Stone Coal", "id": "raigen:oresight_stone_coal", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Stone Copper", "id": "raigen:oresight_stone_copper", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Stone Iron", "id": "raigen:oresight_stone_iron", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Stone Gold", "id": "raigen:oresight_stone_gold", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Stone Lapis", "id": "raigen:oresight_stone_lapis", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Stone Redstone", "id": "raigen:oresight_stone_redstone", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Stone Diamond", "id": "raigen:oresight_stone_diamond", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Stone Emerald", "id": "raigen:oresight_stone_emerald", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Deepslate Coal", "id": "raigen:oresight_deepslate_coal", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Deepslate Copper", "id": "raigen:oresight_deepslate_copper", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Deepslate Iron", "id": "raigen:oresight_deepslate_iron", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Deepslate Gold", "id": "raigen:oresight_deepslate_gold", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Deepslate Lapis", "id": "raigen:oresight_deepslate_lapis", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Deepslate Redstone", "id": "raigen:oresight_deepslate_redstone", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Deepslate Diamond", "id": "raigen:oresight_deepslate_diamond", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Deepslate Emerald", "id": "raigen:oresight_deepslate_emerald", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Netherrack Gold", "id": "raigen:oresight_netherrack_gold", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Netherrack Quartz", "id": "raigen:oresight_netherrack_quartz", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Blackstone Gold", "id": "raigen:oresight_blackstone_gold", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] },
+				{ "type": "commands", "name": "Oresight Nether Debris", "id": "raigen:oresight_nether_debris", "model": false, "mining_time": 100000, "explosion_resistance": 999999, "flammable": false, "orientation": "none", "light": 15, "loot": "default", "description": [ { "type": "subheading", "data": "Description" }, { "type": "paragraph", "data": [ "This is a block that replaces its vanilla counterpart to make itself visible by glowing. It'll return to its original state in 8-10 seconds." ] } ] }
+			],
+			"items": [
+				{
+					"type": "equipment",
+					"name": "Oresight Eye",
+					"id": "raigen:oresight_eye",
+					"model": false,
+					"max_stack": 16,
+					"offhand": false,
+					"cooldown": 30,
+					"armor": 0,
+					"nutrition": 0,
+					"durability": 0,
+					"damage": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "compound",
+							"ratio": {
+								"paragraph": "50%",
+								"image": "50%"
+							},
+							"direction": "PI",
+							"data": {
+								"paragraph": "This is the item that turns the surrounding terrain invisible while making the ores and minerals glow. When used, it needs to cool down for 30 seconds. A 31³ area will be affected from its usage.",
+								"image": "sight.png"
+							}
+						}
+					]
+				}
 			],
 			"entities": [],
 			"structures": [],
