@@ -56775,8 +56775,8 @@ const addonsList = [
 			"survival",
 			"mechanics"
 		],
-		"uploaded_on": { "dd": 2, "mm": 9, "yyyy": 2020 },
-		"updated_on": { "dd": 11, "mm": 9, "yyyy": 2023 },
+		"uploaded_on": { "dd": 9, "mm": 7, "yyyy": 2021 },
+		"updated_on": { "dd": 12, "mm": 9, "yyyy": 2023 },
 		"version": { "main": 1, "sub": 2 },
 		"description": [
 			{
@@ -56791,7 +56791,7 @@ const addonsList = [
 				"type": "paragraph",
 				"data": [
 					"Mining can be hard and it could get annoying when trying to find ores, especially when you need them the most and they're not readily available. Despite these hardships, you're still able to collect minerals without any help.",
-					"This add-on should be able to help you locate ores faster by turning stones invisible. The stone remains intact but it's completely unbreakeable, so you have to wait 8 to 10 seconds to mine them."
+					"This add-on should be able to help you locate ores faster by turning stones invisible. The stone remains intact but it's completely unbreakable, so you have to wait 8 to 10 seconds to mine them."
 				]
 			},
 			{
@@ -56955,6 +56955,630 @@ const addonsList = [
 						}
 					]
 				}
+			],
+			"entities": [],
+			"structures": [],
+			"biomes": []
+		}
+	},
+	{
+    "dat_link": "https://link-hub.net/131911/potion-blocks-dat",
+		"res_link": "https://link-target.net/131911/potion-blocks-res",
+		"one_link": "",
+    "title": "Potion Blocks",
+    "flat": "potion_blocks",
+		"short_description": "It adds blocks that inflict status effects when stepped on.",
+		"tags": [
+			"blocks",
+			"mechanics",
+			"survival",
+			"expansion"
+		],
+		"uploaded_on": { "dd": 23, "mm": 9, "yyyy": 2019 },
+		"updated_on": { "dd": 14, "mm": 9, "yyyy": 2023 },
+		"version": { "main": 2, "sub": 0 },
+		"description": [
+			{
+				"type": "heading",
+				"data": "Potion Blocks"
+			},
+			{
+				"type": "subheading",
+				"data": "Introduction"
+			},
+			{
+				"type": "paragraph",
+				"data": [
+					"Brewing potions can be hassle and they have their own use-cases, but sometimes their convenience and immediate service is incredibly helpful.",
+					"The concept is quite basic, they're blocks that give status effects when stepped on. You may use this for your maps, you just have to credit me properly and you're off."
+				]
+			},
+			{
+				"type": "subheading",
+				"data": "Content"
+			},
+			{
+				"type": "compound",
+				"ratio": {
+					"paragraph": "50%",
+					"image": "50%"
+				},
+				"direction": "PI",
+				"data": {
+					"paragraph": "These useful blocks are now available to be crafted in survival. When stepping in them, it gives you their respective status effect for 10 seconds, Staying on top of them will no longer give you an infinite duration, you can jump to reset the time.",
+					"image": "set.png"
+				}
+			}
+		],
+		"crafting": [
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "items",
+				"pattern": [
+					"minecraft/glass_bottle", "", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/empty_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "items",
+				"pattern": [
+					"", "minecraft/iron_nugget", "",
+					"minecraft/iron_nugget", "", "minecraft/iron_nugget",
+					"minecraft/quartz", "minecraft/quartz", "minecraft/quartz"
+				],
+				"result": "potion_blocks/extraction_desk",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "items",
+				"pattern": [
+					"minecraft/dark_prismarine", "minecraft/dark_prismarine", "minecraft/dark_prismarine",
+					"minecraft/polished_andesite", "minecraft/cauldron", "minecraft/polished_andesite",
+					"minecraft/polished_andesite", "minecraft/polished_andesite", "minecraft/polished_andesite"
+				],
+				"result": "potion_blocks/regular_potion_block",
+				"amount": 8
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/crafting_table",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/regular_potion_block", "minecraft/redstone_dust", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/enhanced_potion_block",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/ghast_tear", "minecraft/glistering_melon_slice",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/absorption_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/ink_sac", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/blindness_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/echo_shard", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/darkness_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/spider_eye", "minecraft/lily_of_the_valley",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/fatal_poison_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/magma_cream", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/fire_resistance_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/sugar", "minecraft/blaze_powder",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/haste_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/apple", "minecraft/glistering_melon_slice",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/health_boost_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/rotten_flesh", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/hunger_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/glistering_melon_slice", "minecraft/fermented_spider_eye",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/instant_damage_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/spider_eye", "minecraft/fermented_spider_eye",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/instant_damage_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/glistering_melon_slice", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/instant_health_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/golden_carrot", "minecraft/fermented_spider_eye",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/invisibility_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/rabbit_foot", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/jump_boost_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/popped_chorus_fruit", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/levitation_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/pufferfish", "minecraft/rotten_flesh",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/mining_fatigue_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/spider_eye", "minecraft/pufferfish",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/nausea_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/golden_carrot", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/night_vision_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/spider_eye", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/poison_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/ghast_tear", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/regeneration_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/blaze_powder", "minecraft/ghast_tear",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/resistance_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/wheat", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/saturation_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/phantom_membrane", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/slow_falling_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/rabbit_foot", "minecraft/fermented_spider_eye",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/slowness_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/sugar", "minecraft/fermented_spider_eye",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/slowness_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/sugar", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/speed_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/pufferfish", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/water_breathing_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/blaze_powder", "minecraft/fermented_spider_eye",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/weakness_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/ghast_tear", "minecraft/fermented_spider_eye",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/weakness_flask",
+				"amount": 1
+			},
+			{
+				"type": "crafting",
+				"tool": "minecraft/extraction_desk",
+				"genre": "items",
+				"pattern": [
+					"potion_blocks/empty_flask", "minecraft/wither_skeleton_head", "",
+					"", "", "",
+					"", "", ""
+				],
+				"result": "potion_blocks/wither_flask",
+				"amount": 1
+			}
+		],
+		"content": {
+			"blocks": [
+				{
+					"type": "equipment",
+					"name": "Regular Potion Block",
+					"id": "raigen:regular_potion_block",
+					"model": false,
+					"mining_time": 7.5,
+					"explosion_resistance": 6,
+					"flammable": false,
+					"orientation": "none",
+					"light": 0,
+					"loot": "default",
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"You can interact with this block using Redstone Dust or Flasks. Using Redstone Dust will enhance the block and doubles its effects, while using Flasks will give it the effect.",
+							]
+						},
+						{
+							"type": "image",
+							"data": [
+								"enhancing.png",
+								"filling.png"
+							]
+						}
+					]
+				},
+				{
+					"type": "equipment",
+					"name": "Enhanced Potion Block",
+					"id": "raigen:enhanced_potion_block",
+					"model": false,
+					"mining_time": 7.5,
+					"explosion_resistance": 6,
+					"flammable": false,
+					"orientation": "none",
+					"light": 0,
+					"loot": "default",
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "compound",
+							"ratio": {
+								"paragraph": "50%",
+								"image": "50%"
+							},
+							"direction": "PI",
+							"data": {
+								"paragraph": "You can interact with this block using Flasks. It'll double the duration and amplify effects to the 3rd level.",
+								"image": "filling.png"
+							}
+						}
+					]
+				},
+				{ "type": "equipment", "name": "Regular Absorption Potion Block", "id": "raigen:regular_absorption_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Absorption\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Blindness Potion Block", "id": "raigen:regular_blindness_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Blindness\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Fatal Poison Potion Block", "id": "raigen:regular_fatal_poison_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Fatal Poison\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Fire Resistance Potion Block", "id": "raigen:regular_fire_resistance_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Fire Resistance\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Haste Potion Block", "id": "raigen:regular_haste_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Haste\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Health Boost Potion Block", "id": "raigen:regular_health_boost_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Health Boost\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Hunger Potion Block", "id": "raigen:regular_hunger_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Hunger\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Instant Damage Potion Block", "id": "raigen:regular_instant_damage_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Instant Damage\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Instant Health Potion Block", "id": "raigen:regular_instant_health_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Instant Health\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Invisibility Potion Block", "id": "raigen:regular_invisibility_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Invisibility\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Jump Boost Potion Block", "id": "raigen:regular_jump_boost_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Jump Boost\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Levitation Potion Block", "id": "raigen:regular_levitation_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Levitation\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Mining Fatigue Potion Block", "id": "raigen:regular_mining_fatigue_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Mining Fatigue\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Nausea Potion Block", "id": "raigen:regular_nausea_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Nausea\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Night Vision Potion Block", "id": "raigen:regular_night_vision_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Night Vision\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Poison Potion Block", "id": "raigen:regular_poison_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Poison\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Regeneration Potion Block", "id": "raigen:regular_regeneration_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Regeneration\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Resistance Potion Block", "id": "raigen:regular_resistance_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Resistance\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Saturation Potion Block", "id": "raigen:regular_saturation_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Saturation\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Slow Falling Potion Block", "id": "raigen:regular_slow_falling_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Slow Falling\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Slowness Potion Block", "id": "raigen:regular_slowness_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Slowness\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Speed Potion Block", "id": "raigen:regular_speed_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Speed\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Strength Potion Block", "id": "raigen:regular_strength_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Strength\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Water Breathing Potion Block", "id": "raigen:regular_water_breathing_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Water Breathing\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Weakness Potion Block", "id": "raigen:regular_weakness_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Weakness\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Wither Potion Block", "id": "raigen:regular_wither_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Wither\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Regular Darkness Potion Block", "id": "raigen:regular_darkness_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Regular Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Darkness\" effect for 10 seconds. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "You're also able to enhance it by using Redstone Dust.", "image": "enhancing.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Absorption Potion Block", "id": "raigen:enhanced_absorption_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Absorption\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Blindness Potion Block", "id": "raigen:enhanced_blindness_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Blindness\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Fatal Poison Potion Block", "id": "raigen:enhanced_fatal_poison_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Fatal Poison\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Fire Resistance Potion Block", "id": "raigen:enhanced_fire_resistance_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Fire Resistance\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Haste Potion Block", "id": "raigen:enhanced_haste_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Haste\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Health Boost Potion Block", "id": "raigen:enhanced_health_boost_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Health Boost\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Hunger Potion Block", "id": "raigen:enhanced_hunger_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Hunger\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Instant Damage Potion Block", "id": "raigen:enhanced_instant_damage_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Instant Damage\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Instant Health Potion Block", "id": "raigen:enhanced_instant_health_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Instant Health\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Invisibility Potion Block", "id": "raigen:enhanced_invisibility_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Invisibility\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Jump Boost Potion Block", "id": "raigen:enhanced_jump_boost_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Jump Boost\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Levitation Potion Block", "id": "raigen:enhanced_levitation_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Levitation\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Mining Fatigue Potion Block", "id": "raigen:enhanced_mining_fatigue_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Mining Fatigue\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Nausea Potion Block", "id": "raigen:enhanced_nausea_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Nausea\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Night Vision Potion Block", "id": "raigen:enhanced_night_vision_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Night Vision\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Poison Potion Block", "id": "raigen:enhanced_poison_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Poison\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Regeneration Potion Block", "id": "raigen:enhanced_regeneration_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Regeneration\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Resistance Potion Block", "id": "raigen:enhanced_resistance_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Resistance\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Saturation Potion Block", "id": "raigen:enhanced_saturation_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Saturation\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Slow Falling Potion Block", "id": "raigen:enhanced_slow_falling_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Slow Falling\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Slowness Potion Block", "id": "raigen:enhanced_slowness_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Slowness\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Speed Potion Block", "id": "raigen:enhanced_speed_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Speed\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Strength Potion Block", "id": "raigen:enhanced_strength_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Strength\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Water Breathing Potion Block", "id": "raigen:enhanced_water_breathing_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Water Breathing\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Weakness Potion Block", "id": "raigen:enhanced_weakness_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Weakness\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Wither Potion Block", "id": "raigen:enhanced_wither_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Wither\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] },
+				{ "type": "equipment", "name": "Enhanced Darkness Potion Block", "id": "raigen:enhanced_darkness_potion_block", "model": false, "mining_time": 7.5, "explosion_resistance": 6, "flammable": false, "orientation": "none", "light": 0, "loot": [ { "name": "Enhanced Potion Block", "condition": "", "amount": "1", "description": "" }, ], "description": [ { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "Stepping on this block will provide you the \"Darkness\" effect for 20 seconds, amplified to the 3rd power. Breaking this block will drop its default state, leaving you wasting ingredients.", "image": "stepping.png" } } ] }
+			],
+			"items": [
+				{
+					"type": "equipment",
+					"name": "Empty Flask",
+					"id": "raigen:empty_flask",
+					"model": false,
+					"max_stack": 64,
+					"offhand": false,
+					"cooldown": 0,
+					"armor": 0,
+					"nutrition": 0,
+					"durability": 0,
+					"damage": [],
+					"description": [
+						{
+							"type": "subheading",
+							"data": "Description"
+						},
+						{
+							"type": "paragraph",
+							"data": [
+								"This is similar to the Glass Bottle but it's used to accommodate interactions with the Potion Blocks. It's used as a container for the would-be potion ingredients without using a brewing stand.",
+							]
+						},
+					]
+				},
+				{ "type": "equipment", "name": "Absorption Flask", "id": "raigen:absorption_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Blindness Flask", "id": "raigen:blindness_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Fatal Poison Flask", "id": "raigen:fatal_poison_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Fire Resistance Flask", "id": "raigen:fire_resistance_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Haste Flask", "id": "raigen:haste_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Health Boost Flask", "id": "raigen:health_boost_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Hunger Flask", "id": "raigen:hunger_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Instant Damage Flask", "id": "raigen:instant_damage_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Instant Health Flask", "id": "raigen:instant_health_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Invisibility Flask", "id": "raigen:invisibility_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Jump Boost Flask", "id": "raigen:jump_boost_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Levitation Flask", "id": "raigen:levitation_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Mining Fatigue Flask", "id": "raigen:mining_fatigue_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Nausea Flask", "id": "raigen:nausea_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Night Vision Flask", "id": "raigen:night_vision_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Poison Flask", "id": "raigen:poison_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Regeneration Flask", "id": "raigen:regeneration_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Resistance Flask", "id": "raigen:resistance_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Saturation Flask", "id": "raigen:saturation_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Slow Falling Flask", "id": "raigen:slow_falling_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Slowness Flask", "id": "raigen:slowness_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Speed Flask", "id": "raigen:speed_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Strength Flask", "id": "raigen:strength_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Water Breathing Flask", "id": "raigen:water_breathing_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Weakness Flask", "id": "raigen:weakness_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Wither Flask", "id": "raigen:wither_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
+				{ "type": "equipment", "name": "Darkness Flask", "id": "raigen:darkness_flask", "model": false, "max_stack": 64, "offhand": false, "cooldown": 0, "armor": 0, "nutrition": 0, "durability": 0, "damage": [], "description": [ { "type": "subheading", "data": "Description" }, { "type": "compound", "ratio": { "paragraph": "50%", "image": "50%" }, "direction": "PI", "data": { "paragraph": "This is an item used to fill a Potion Block to give it status effects to use. It's like a potion but it can't be used directly.", "image": "filling.png" } } ] },
 			],
 			"entities": [],
 			"structures": [],
