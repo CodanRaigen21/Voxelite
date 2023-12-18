@@ -1,6 +1,6 @@
 var modal = document.querySelector('.modalWrapper');
 var mainModal = document.querySelector('.mainModal');
-var images = document.querySelectorAll('.mainWrapper * > img');
+var images = document.querySelectorAll('.mainWrapper img');
 
 images.forEach(img =>{
 	img.addEventListener('click', event => {

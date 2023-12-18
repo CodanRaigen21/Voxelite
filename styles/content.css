@@ -193,35 +193,6 @@ td table{
 .targetTd{
 	text-transform:capitalize;
 }
-
-.variantsDiv{
-	overflow:auto;
-	width:100%;
-}
-.variantsWrapper{
-	display:flex;
-}
-.variantCell{
-	height:75px;
-	aspect-ratio:1/1;
-	margin:5px;
-	border:1px solid;
-	border-radius:7.5px;
-	background-color:var(--panelCol);
-	cursor:pointer;
-	transition:border-color 0.25s ease;
-}
-.variantCell:hover{
-	border-color:var(--accentCol);
-}
-.variantCell div{
-	scale:0.85;
-	height:100%;
-	width:100%;
-	background-repeat:no-repeat;
-	background-size:contain;
-	background-position:center;
-}
 @media (width < 1300px){
 	.contentDetails{
 		flex-direction:column;
@@ -347,7 +318,7 @@ td table{
 .libraryCell{
 	background-color:var(--panelCol);
 	padding:0px;
-	width:calc(100% / 10);
+	width:calc((100% / 10) - 2px);
 	aspect-ratio:1/1;
 	border:1px solid var(--fontCol);
 	border-radius:7.5px;

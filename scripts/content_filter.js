@@ -1,5 +1,5 @@
 var contentTags = document.querySelectorAll('.dataTags button:not(.disabled)');
-
+var cells = document.querySelectorAll('.libraryCell');
 contentTags.forEach(ct => {
 	ct.addEventListener('click', event =>{
 		contentTags.forEach(cct => cct.classList.remove('chosen'));

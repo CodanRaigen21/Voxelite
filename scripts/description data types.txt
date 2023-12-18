@@ -1,8 +1,0 @@
-heading
-subheading
-subsubheading
-paragraph
-unordered_list
-gallery
-image
-compound (paragraph & image)

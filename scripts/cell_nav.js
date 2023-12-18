@@ -633,7 +633,6 @@ cells.forEach(c => {
 						pInfo.appendChild(smithingModder);
 						pInfo.appendChild(ingT);
 					}
-					
 					panelWrapper.appendChild(pInfo);
 					panelWrapper.appendChild(panel);
 					par.appendChild(panelWrapper);

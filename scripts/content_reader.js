@@ -143,15 +143,15 @@ if(cc.flat == name){
 	var structuresTags = [ 'All', 'Treasure', 'Resource', 'Residence', 'Decoration', 'Dungeon' ];
 	var biomesTags = [ 'All', 'Dimension', 'Major', 'Micro' ];
 	tabListCap.forEach(tlc =>{
-		var control = `cc.content.${tlc.toLowerCase()}`;
+		let arrC = `${tlc.toLowerCase()}`;
+		let found = [];
+		eval(arrC).forEach(a =>{ a.origin == name ? found.push(a) : null; });
 		var tagL = `${tlc.toLowerCase()}Tags`;
-		
-		var ev = eval(control);
 		var tagEv = eval(tagL);
-		ev.length > 0 ? createLibrary(tlc, ev, tagEv) : null;
+		found.length > 0 ? createLibrary(tlc, found, tagEv) : null;
 		document.querySelectorAll(`div[data-page="${tlc.toLowerCase()}"] .dataTagsWrapper .dataTags button`).forEach(cb => {
 			if(cb.dataset.tagval != 'all'){
-				let lGot = document.querySelectorAll(`button[data-tagval="${cb.dataset.tagval}"].libraryCell`);
+				let lGot = document.querySelectorAll(`a[data-tagval="${cb.dataset.tagval}"].libraryCell`);
 				lGot.length == 0 ? cb.classList.add('disabled') : null;
 				lGot.length == 0 ? cb.tabIndex = -1 : null;
 			}
@@ -199,8 +199,8 @@ if(cc.flat == name){
 		newLibrary.classList.add('library');
 		newLibrary.dataset.type = ty.toLowerCase();
 		ev.forEach(cell => {
-			var newBtn = document.createElement('button');
-			newBtn.type = 'button';
+			var newBtn = document.createElement('a');
+			newBtn.href = `info.html?${ty.toLowerCase()}=${cell.id.toString().split(':')[1]}`;
 			newBtn.classList.add('libraryCell');
 			newBtn.dataset.id = cell.id;
 			if(ty == 'Blocks'){ newBtn.dataset.tagval = `BLK${cell.type}`; }
@@ -216,7 +216,7 @@ if(cc.flat == name){
 				cellImg.style.backgroundImage = `url('images/content/${name}/inventory/${cell.id.split(':')[1]}.png')`;
 			}
 			else if(ty.toLowerCase() == 'entities'){
-				if(cell.variants == 0){ cellImg.style.backgroundImage = `url('images/content/${name}/${ty.toLowerCase()}/${cell.id.split(':')[1]}.png')`; }
+				if(cell.attributes.variants == 0){ cellImg.style.backgroundImage = `url('images/content/${name}/${ty.toLowerCase()}/${cell.id.split(':')[1]}.png')`; }
 				else{ cellImg.style.backgroundImage = `url('images/content/${name}/${ty.toLowerCase()}/${cell.id.split(':')[1]}0.png')`; }
 			}
 			else{

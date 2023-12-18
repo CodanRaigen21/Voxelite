@@ -1,0 +1,152 @@
+const assets = [
+	//blocks
+	{
+		id: 'namespace:asset_id',///////////id of the asset that'll be referenced
+		name: 'Asset Name',/////////////////name of the asset to be used in headers and links
+		origin: 'origin_addon',/////////////flat id of the addon the asset originated from
+		images: [ 'image.png' ],////////////images of the assets and its variations
+		type: 'string',
+		attributes: {
+			//blocks
+			mining_time: 0.0,/////////////////mined in seconds
+			explosion_resistance: 0.0,////////resistance to explosions
+			flammable: false,/////////////////is it flammable
+			orientation: 'string',////////////how do you place it
+			light: 0.0,///////////////////////light level
+			loot: [///////////////////////////array of loot
+				{
+					asset: 'namespace:asset_id',//id of the item
+					condition: 'string',//////////necessary condition for this item to drop
+					amount: 'string',/////////////a range of amount (0-?)
+				}
+			]
+		},
+		description: `markdown`
+	},
+	//items
+	{
+		id: 'namespace:asset_id',///////////id of the asset that'll be referenced
+		name: 'Asset Name',/////////////////name of the asset to be used in headers and links
+		origin: 'origin_addon',/////////////flat id of the addon the asset originated from
+		images: [ 'image.png' ],////////////images of the assets and its variations
+		type: 'string',
+		attributes: {
+			//items
+			max_stack: 0,/////////////////////maximum stack of the item
+			offhand:false,////////////////////can the item be held offhand
+			cooldown:0.0,/////////////////////cooldown of the item when used
+			armor:0,//////////////////////////armor points when worn
+			nutrition:0,//////////////////////hunger points restored when consumed
+			duriability:0,////////////////////health of the item
+			damage: [/////////////////////////array of damage it can deal
+				{
+					name: 'string',///////////////name of the damage
+					value: 'string'///////////////damage value
+				}
+			]
+		},
+		description: `markdown`/////////////description of the asset in markdown down format
+	},
+	//entities
+	{
+		id: 'namespace:asset_id',///////////id of the asset that'll be referenced
+		name: 'Asset Name',/////////////////name of the asset to be used in headers and links
+		origin: 'origin_addon',/////////////flat id of the addon the asset originated from
+		images: [ 'image.png' ],////////////images of the assets and its variations
+		type: 'string',
+		attributes: {
+			//entities
+			variants: 0,//////////////////////amount of variants
+			health: [/////////////////////////array of health it may have
+				{
+					name: 'string',///////////////name of the health
+					value: 'string'///////////////health value
+				}
+			],
+			damage: [/////////////////////////array of damage it can deal
+				{
+					name: 'string',///////////////name of the damage
+					value: 'string'///////////////damage value
+				}
+			],
+			immunities: [///////////////////////array of values it's immune from
+				'string'///////////////////////immunity name
+			],
+			weaknesses: [///////////////////////array of values it's weak against
+				'string'///////////////////////weakness name
+			],
+			targets: [////////////////////////array of target families
+				'string'///////////////////////target family name
+			],
+			spawns: [/////////////////////////array of ways and places it can spawn
+				{
+					value: 'string',//////////////name of where/how it may spawn
+					weight: 0,////////////////////weight value of spawning
+					difficulty: 'string',/////////difficulty settings where the entity may spawn
+					brightness: 'string'//////////light level to spawn on
+				}
+			],
+			loot: [///////////////////////////list of loot that the entity may drop
+				{
+					asset: 'namespace:asset_id',//id of the item to drop
+					condition: 'string',//////////reason the loot is dropped
+					amount: 'string'//////////////a range of amount (0-?)
+				}
+			]
+		},
+		description: `markdown`
+	},
+	//structures
+	{
+		id: 'namespace:asset_id',///////////id of the asset that'll be referenced
+		name: 'Asset Name',/////////////////name of the asset to be used in headers and links
+		origin: 'origin_addon',/////////////flat id of the addon the asset originated from
+		images: [ 'image.png' ],////////////images of the assets and its variations
+		type: 'string',
+		attributes: {
+			//structures
+			biomes: [/////////////////////////list of dimensions this biomes is found on
+				'string'///////////////////////biome's name
+			],
+			entities: [///////////////////////list of entitites offered by the structure
+				'namespace: entity_id'//////////id of the entity
+			]
+		},
+		description: `markdown`
+	},
+	{
+		id: 'namespace:asset_id',///////////id of the asset that'll be referenced
+		name: 'Asset Name',/////////////////name of the asset to be used in headers and links
+		origin: 'origin_addon',/////////////flat id of the addon the asset originated from
+		images: [ 'image.png' ],////////////images of the assets and its variations
+		type: 'string',
+		attributes: {
+			//biomes
+			dimension: 'string',//////////////name of the dimensions this biome is found on
+			structures: [/////////////////////list of structures found in this biome
+				'string'///////////////////////name of the strucure
+			],
+			entities: [///////////////////////list of entities found in this biome
+				'namespace: entity_id'//////////id of this entity
+			],
+			resources: [//////////////////////list of blocks and items offerd by the biome
+				'namespcae: asset_id'///////////id of the asset
+			]
+		},
+		description: `markdown`
+	},
+	{
+		id: 'namespace:asset_id',///////////id of the asset that'll be referenced
+		name: 'Asset Name',/////////////////name of the asset to be used in headers and links
+		origin: 'origin_addon',/////////////flat id of the addon the asset originated from
+		images: [ 'image.png' ],////////////images of the assets and its variations
+		type: 'string',
+		attributes: {
+			//dimensions
+			biomes: [/////////////////////////list of dimensions this biomes is found on
+				'string'///////////////////////biome's name
+			]
+		},
+		description: `markdown`
+	}
+]
