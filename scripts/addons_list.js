@@ -6377,7 +6377,7 @@ const addonsList = [
     "dat_link": "https://bstlar.com/2EF/laserquarrydat",
 		"res_link": "https://bstlar.com/2EF/laserquarryres",
 		"one_link": "",
-    "title": "Laser quarry",
+    "title": "Laser Quarry",
     "flat": "laser_quarry",
 		"short_description": "Adds tiered insta-mining blocks that bore holes based on your specifications.",
 		"tags": [
