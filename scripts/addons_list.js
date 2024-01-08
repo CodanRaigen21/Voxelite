@@ -6677,5 +6677,45 @@ const addonsList = [
 				"data": [ "sapling.png" ]
 			}
 		]
+	},
+	{
+    "dat_link": "https://bstlar.com/2EF/railcraftdat",
+		"res_link": "https://bstlar.com/2EF/railcraftres",
+		"one_link": "",
+    "title": "Rail Craft",
+    "flat": "rail_craft",
+		"short_description": "Adds decorative minecart variants that resemble real life railway units.",
+		"tags": [
+			"mobs",
+			"items",
+			"decorative",
+			"mechanics",
+			"expansion"
+		],
+		"uploaded_on": { "dd": 18, "mm": 6, "yyyy": 2019 },
+		"updated_on": { "dd": 8, "mm": 12, "yyyy": 2023 },
+		"version": { "main": 2, "sub": 0 },
+		"description": [
+			{
+				"type": "heading",
+				"data": "Rail Craft"
+			},
+			{
+				"type": "subheading",
+				"data": "Introduction"
+			},
+			{
+				"type": "compound",
+				"ratio": {
+					"paragraph": "50%",
+					"image": "50%"
+				},
+				"direction": "PI",
+				"data": {
+					"paragraph": "Minecarts have been a means of transportation since alpha, this add-on adds more than 80 new minecarts that can be used for decoration and functions the way they're intended. The custom minecarts wave been revamped using scripting to add incline animations, compared to the old version that didn't had any. Though it still depends on the runtime identifier of their vanilla counterpart, their loot will be bugged to give youn a minecart upon death by default.",
+					"image": "set.png"
+				}
+			}
+		]
 	}
 ]
