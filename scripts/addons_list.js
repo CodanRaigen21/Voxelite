@@ -6712,7 +6712,7 @@ const addonsList = [
 				},
 				"direction": "PI",
 				"data": {
-					"paragraph": "Minecarts have been a means of transportation since alpha, this add-on adds more than 80 new minecarts that can be used for decoration and functions the way they're intended. The custom minecarts wave been revamped using scripting to add incline animations, compared to the old version that didn't had any. Though it still depends on the runtime identifier of their vanilla counterpart, their loot will be bugged to give youn a minecart upon death by default.",
+					"paragraph": "Minecarts have been a means of transportation since alpha, this add-on adds more than 80 new minecarts that can be used for decoration and functions the way they're intended. The custom minecarts wave been revamped using scripting to add incline animations, compared to the old version that didn't had any. Though it still depends on the runtime identifier of their vanilla counterpart, their loot will be bugged to give you a minecart upon death by default.",
 					"image": "set.png"
 				}
 			}

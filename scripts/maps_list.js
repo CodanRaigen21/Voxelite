@@ -37,14 +37,58 @@ const mapsList = [
 					"view.png"
 				]
 			}
+		]
+	},
+	{
+		"dat_link": "",
+		"res_link": "",
+		"one_link": "https://bstlar.com/2EF/bombsurvival",
+    "title": "Bomb Survival",
+    "flat": "bomb_survival",
+		"short_description": "A classic Little Big Planet minigame adapted for Minecraft Bedrock",
+		"tags": [
+			"minigame"
 		],
-		"crafting": [],
-		"content": {
-			"blocks": [],
-			"items": [],
-			"entities": [],
-			"structures": [],
-			"biomes": []
-		}
+		"uploaded_on": { "dd": 10, "mm": 1, "yyyy": 2024 },
+		"updated_on": { "dd": 0, "mm": 0, "yyyy": 0 },
+		"version": { "main": 1, "sub": 0 },
+		"description": [
+			{
+				"type": "heading",
+				"data": "Bomb Survival"
+			},
+			{
+				"type": "subheading",
+				"data": "Description"
+			},
+			{
+				"type": "paragraph",
+				"data": [
+					"This is a minigame map inspired by the classic \"Bomb Survival\" minigame from Little Big Planet. The main goal is to reach the bottom of the map by avoiding the bombs dropping from the surface.",
+				]
+			},
+			{
+				"type": "compound",
+				"ratio": {
+					"paragraph": "50%",
+					"image": "50%"
+				},
+				"direction": "PI",
+				"data": {
+					"paragraph": "There are 16 levels of platforms, being 15 blocks high each. They represent the 16 colors of the game and you start at yellow, while the final color being black. Each bomb dropped will explode in 8 seconds. So the deeper you go, the lesser the time you have to avoid the one that lands next to you.",
+					"image": "levels.png"
+				}
+			},
+			{
+				"type": "paragraph",
+				"data": [
+					"The only thing you need to do to win is to touch the Reinforced Deepslate at the bottom of the map. Golden Carrots may drop from the skies other than bombs and very very rarely, Enchanted Golden Apples."
+				]
+			},
+			{
+				"type": "image",
+				"data": [ "view.png" ]
+			}
+		]
 	}
 ]
