@@ -6717,5 +6717,45 @@ const addonsList = [
 				}
 			}
 		]
+	},
+	{
+    "dat_link": "https://bstlar.com/2EF/megacropsdat",
+		"res_link": "https://bstlar.com/2EF/megacropsres",
+		"one_link": "",
+    "title": "Mega Crops",
+    "flat": "mega_crops",
+		"short_description": "Adds a mechanic where you can grow crops as giants.",
+		"tags": [
+			"survival",
+			"blocks",
+			"decorative",
+			"mechanics",
+			"expansion"
+		],
+		"uploaded_on": { "dd": 29, "mm": 1, "yyyy": 2024 },
+		"updated_on": { "dd": 0, "mm": 0, "yyyy": 0 },
+		"version": { "main": 1, "sub": 0 },
+		"description": [
+			{
+				"type": "heading",
+				"data": "Mega Crops"
+			},
+			{
+				"type": "subheading",
+				"data": "Introduction"
+			},
+			{
+				"type": "compound",
+				"ratio": {
+					"paragraph": "50%",
+					"image": "50%"
+				},
+				"direction": "PI",
+				"data": {
+					"paragraph": "Farming can be menial task and building a mega farm may be satisfying, but what if there was an unnatural event that happens when farming? Say your plant becomes taller than your house! This is an add-on that lets you grow your crop beyond its original limit. Just keep feeding your crops Bone Meal and it has a good chance of growing into a giant.",
+					"image": "set.png"
+				}
+			}
+		]
 	}
 ]
