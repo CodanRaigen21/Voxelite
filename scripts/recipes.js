@@ -33046,6 +33046,17 @@ const recipes = [
 		type: 'crafting',
 		tool: 'minecraft:crafting_table',
 		pattern: [
+			'minecraft:iron_ingot', 'minecraft:iron_bars', 'minecraft:iron_ingot', 
+			'minecraft:iron_bars', 'minecraft:mob_spawner', 'minecraft:iron_bars', 
+			'minecraft:iron_ingot', 'minecraft:iron_bars', 'minecraft:iron_ingot', 
+		],
+		result: 'raigen:loot_harvester',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
 			'minecraft:iron_bars', 'minecraft:iron_bars', 'minecraft:iron_bars', 
 			'minecraft:iron_bars', 'raigen:remnant_powder', 'minecraft:iron_bars', 
 			'minecraft:iron_bars', 'minecraft:iron_bars', 'minecraft:iron_bars', 

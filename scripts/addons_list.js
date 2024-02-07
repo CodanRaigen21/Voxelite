@@ -6757,5 +6757,45 @@ const addonsList = [
 				}
 			}
 		]
+	},
+	{
+    "dat_link": "https://bstlar.com/2EF/modularfarmingdat",
+		"res_link": "https://bstlar.com/2EF/modularfarmingres",
+		"one_link": "",
+    "title": "Modular Farming",
+    "flat": "modular_farming",
+		"short_description": "Allows you to farm efficiently with limited space.",
+		"tags": [
+			"survival",
+			"blocks",
+			"industrial",
+			"mechanics",
+			"expansion"
+		],
+		"uploaded_on": { "dd": 7, "mm": 2, "yyyy": 2024 },
+		"updated_on": { "dd": 0, "mm": 0, "yyyy": 0 },
+		"version": { "main": 1, "sub": 0 },
+		"description": [
+			{
+				"type": "heading",
+				"data": "Modular Farming"
+			},
+			{
+				"type": "subheading",
+				"data": "Introduction"
+			},
+			{
+				"type": "compound",
+				"ratio": {
+					"paragraph": "50%",
+					"image": "50%"
+				},
+				"direction": "PI",
+				"data": {
+					"paragraph": "Vertical farms have been one of the best examples of agricultural advancements. This is quite difficult to achieve in the game as the method of farming is traditional. This is an add-on that lets you create a modular unit where you can easily farm in tight spaces. It also allows you to build automatic farms without using too many resources.",
+					"image": "set.png"
+				}
+			}
+		]
 	}
 ]

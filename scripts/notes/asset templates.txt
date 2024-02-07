@@ -104,7 +104,6 @@ const assets = [
 		images: [ 'image.png' ],////////////images of the assets and its variations
 		type: 'string',
 		attributes: {
-			//structures
 			biomes: [/////////////////////////list of dimensions this biomes is found on
 				'string'///////////////////////biome's name
 			],
@@ -114,6 +113,7 @@ const assets = [
 		},
 		description: `markdown`
 	},
+	//biomes
 	{
 		id: 'namespace:asset_id',///////////id of the asset that'll be referenced
 		name: 'Asset Name',/////////////////name of the asset to be used in headers and links
@@ -121,20 +121,17 @@ const assets = [
 		images: [ 'image.png' ],////////////images of the assets and its variations
 		type: 'string',
 		attributes: {
-			//biomes
 			dimension: 'string',//////////////name of the dimensions this biome is found on
-			structures: [/////////////////////list of structures found in this biome
-				'string'///////////////////////name of the strucure
-			],
 			entities: [///////////////////////list of entities found in this biome
 				'namespace: entity_id'//////////id of this entity
 			],
 			resources: [//////////////////////list of blocks and items offerd by the biome
-				'namespcae: asset_id'///////////id of the asset
+				'namespace: asset_id'///////////id of the asset
 			]
 		},
 		description: `markdown`
 	},
+	//dimensions
 	{
 		id: 'namespace:asset_id',///////////id of the asset that'll be referenced
 		name: 'Asset Name',/////////////////name of the asset to be used in headers and links
@@ -142,7 +139,6 @@ const assets = [
 		images: [ 'image.png' ],////////////images of the assets and its variations
 		type: 'string',
 		attributes: {
-			//dimensions
 			biomes: [/////////////////////////list of dimensions this biomes is found on
 				'string'///////////////////////biome's name
 			]
