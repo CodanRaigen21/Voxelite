@@ -6797,5 +6797,46 @@ const addonsList = [
 				}
 			}
 		]
+	},
+	{
+    "dat_link": "https://bstlar.com/2EF/architectdat",
+		"res_link": "https://bstlar.com/2EF/architectres",
+		"one_link": "",
+    "title": "Architect",
+    "flat": "architect",
+		"short_description": "Use /fill in survival mode.",
+		"tags": [
+			"survival",
+			"items",
+			"blocks",
+			"industrial",
+			"mechanics",
+			"expansion"
+		],
+		"uploaded_on": { "dd": 11, "mm": 2, "yyyy": 2024 },
+		"updated_on": { "dd": 0, "mm": 0, "yyyy": 0 },
+		"version": { "main": 1, "sub": 0 },
+		"description": [
+			{
+				"type": "heading",
+				"data": "Architect"
+			},
+			{
+				"type": "subheading",
+				"data": "Introduction"
+			},
+			{
+				"type": "compound",
+				"ratio": {
+					"paragraph": "50%",
+					"image": "50%"
+				},
+				"direction": "PI",
+				"data": {
+					"paragraph": "The \"Blueprints\" is an item that makes the fill command possible in survival mode. Instead of a form UI that easily lets you fill the area, the Blueprints require a step-by-step process that takes into account the volume, amount, and balance.",
+					"image": "fromto.png"
+				}
+			}
+		]
 	}
 ]

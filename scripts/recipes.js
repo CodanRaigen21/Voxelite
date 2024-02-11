@@ -39070,4 +39070,15 @@ const recipes = [
 		result: 'raigen:lollipop_spruce_shrub_sapling',
 		amount: 1
 	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'minecraft:blue_dye', 'minecraft:paper', 'minecraft:blue_dye', 
+			'minecraft:paper', 'minecraft:blue_dye', 'minecraft:paper', 
+			'minecraft:blue_dye', 'minecraft:paper', 'minecraft:blue_dye', 
+		],
+		result: 'raigen:blueprints',
+		amount: 1
+	},
 ];
