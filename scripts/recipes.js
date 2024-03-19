@@ -39081,4 +39081,490 @@ const recipes = [
 		result: 'raigen:blueprints',
 		amount: 1
 	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:frosted_glass',
+		result: 'raigen:cut_frosted_glass',
+		amount: 1
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:frosted_glass',
+		result: 'raigen:glazed_frosted_glass',
+		amount: 1
+	},
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:black_jawly_rubber', 'raigen:black_jawly_rubber', 'raigen:black_jawly_rubber',  'raigen:black_jawly_rubber', 'minecraft:slime_block', 'raigen:black_jawly_rubber',  'raigen:black_jawly_rubber', 'raigen:black_jawly_rubber', 'raigen:black_jawly_rubber',  ], result: 'raigen:black_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:blue_jawly_rubber', 'raigen:blue_jawly_rubber', 'raigen:blue_jawly_rubber',  'raigen:blue_jawly_rubber', 'minecraft:slime_block', 'raigen:blue_jawly_rubber',  'raigen:blue_jawly_rubber', 'raigen:blue_jawly_rubber', 'raigen:blue_jawly_rubber',  ], result: 'raigen:blue_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:brown_jawly_rubber', 'raigen:brown_jawly_rubber', 'raigen:brown_jawly_rubber',  'raigen:brown_jawly_rubber', 'minecraft:slime_block', 'raigen:brown_jawly_rubber',  'raigen:brown_jawly_rubber', 'raigen:brown_jawly_rubber', 'raigen:brown_jawly_rubber',  ], result: 'raigen:brown_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:cyan_jawly_rubber', 'raigen:cyan_jawly_rubber', 'raigen:cyan_jawly_rubber',  'raigen:cyan_jawly_rubber', 'minecraft:slime_block', 'raigen:cyan_jawly_rubber',  'raigen:cyan_jawly_rubber', 'raigen:cyan_jawly_rubber', 'raigen:cyan_jawly_rubber',  ], result: 'raigen:cyan_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:gray_jawly_rubber', 'raigen:gray_jawly_rubber', 'raigen:gray_jawly_rubber',  'raigen:gray_jawly_rubber', 'minecraft:slime_block', 'raigen:gray_jawly_rubber',  'raigen:gray_jawly_rubber', 'raigen:gray_jawly_rubber', 'raigen:gray_jawly_rubber',  ], result: 'raigen:gray_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:green_jawly_rubber', 'raigen:green_jawly_rubber', 'raigen:green_jawly_rubber',  'raigen:green_jawly_rubber', 'minecraft:slime_block', 'raigen:green_jawly_rubber',  'raigen:green_jawly_rubber', 'raigen:green_jawly_rubber', 'raigen:green_jawly_rubber',  ], result: 'raigen:green_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:light_blue_jawly_rubber', 'raigen:light_blue_jawly_rubber', 'raigen:light_blue_jawly_rubber',  'raigen:light_blue_jawly_rubber', 'minecraft:slime_block', 'raigen:light_blue_jawly_rubber',  'raigen:light_blue_jawly_rubber', 'raigen:light_blue_jawly_rubber', 'raigen:light_blue_jawly_rubber',  ], result: 'raigen:light_blue_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:lime_jawly_rubber', 'raigen:lime_jawly_rubber', 'raigen:lime_jawly_rubber',  'raigen:lime_jawly_rubber', 'minecraft:slime_block', 'raigen:lime_jawly_rubber',  'raigen:lime_jawly_rubber', 'raigen:lime_jawly_rubber', 'raigen:lime_jawly_rubber',  ], result: 'raigen:lime_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:magenta_jawly_rubber', 'raigen:magenta_jawly_rubber', 'raigen:magenta_jawly_rubber',  'raigen:magenta_jawly_rubber', 'minecraft:slime_block', 'raigen:magenta_jawly_rubber',  'raigen:magenta_jawly_rubber', 'raigen:magenta_jawly_rubber', 'raigen:magenta_jawly_rubber',  ], result: 'raigen:magenta_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:orange_jawly_rubber', 'raigen:orange_jawly_rubber', 'raigen:orange_jawly_rubber',  'raigen:orange_jawly_rubber', 'minecraft:slime_block', 'raigen:orange_jawly_rubber',  'raigen:orange_jawly_rubber', 'raigen:orange_jawly_rubber', 'raigen:orange_jawly_rubber',  ], result: 'raigen:orange_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:pink_jawly_rubber', 'raigen:pink_jawly_rubber', 'raigen:pink_jawly_rubber',  'raigen:pink_jawly_rubber', 'minecraft:slime_block', 'raigen:pink_jawly_rubber',  'raigen:pink_jawly_rubber', 'raigen:pink_jawly_rubber', 'raigen:pink_jawly_rubber',  ], result: 'raigen:pink_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:purple_jawly_rubber', 'raigen:purple_jawly_rubber', 'raigen:purple_jawly_rubber',  'raigen:purple_jawly_rubber', 'minecraft:slime_block', 'raigen:purple_jawly_rubber',  'raigen:purple_jawly_rubber', 'raigen:purple_jawly_rubber', 'raigen:purple_jawly_rubber',  ], result: 'raigen:purple_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:red_jawly_rubber', 'raigen:red_jawly_rubber', 'raigen:red_jawly_rubber',  'raigen:red_jawly_rubber', 'minecraft:slime_block', 'raigen:red_jawly_rubber',  'raigen:red_jawly_rubber', 'raigen:red_jawly_rubber', 'raigen:red_jawly_rubber',  ], result: 'raigen:red_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:silver_jawly_rubber', 'raigen:silver_jawly_rubber', 'raigen:silver_jawly_rubber',  'raigen:silver_jawly_rubber', 'minecraft:slime_block', 'raigen:silver_jawly_rubber',  'raigen:silver_jawly_rubber', 'raigen:silver_jawly_rubber', 'raigen:silver_jawly_rubber',  ], result: 'raigen:silver_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:white_jawly_rubber', 'raigen:white_jawly_rubber', 'raigen:white_jawly_rubber',  'raigen:white_jawly_rubber', 'minecraft:slime_block', 'raigen:white_jawly_rubber',  'raigen:white_jawly_rubber', 'raigen:white_jawly_rubber', 'raigen:white_jawly_rubber',  ], result: 'raigen:white_jawly_rubber_block', amount: 1 },
+	{ type: 'crafting', tool: 'minecraft:crafting_table', pattern: [ 'raigen:yellow_jawly_rubber', 'raigen:yellow_jawly_rubber', 'raigen:yellow_jawly_rubber',  'raigen:yellow_jawly_rubber', 'minecraft:slime_block', 'raigen:yellow_jawly_rubber',  'raigen:yellow_jawly_rubber', 'raigen:yellow_jawly_rubber', 'raigen:yellow_jawly_rubber',  ], result: 'raigen:yellow_jawly_rubber_block', amount: 1 },
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'minecraft:blue_dye', 'minecraft:paper', 'minecraft:blue_dye', 
+			'minecraft:paper', 'minecraft:blue_dye', 'minecraft:paper', 
+			'minecraft:blue_dye', 'minecraft:paper', 'minecraft:blue_dye', 
+		],
+		result: 'raigen:blueprints',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'minecraft:blaze_powder', '', '', 
+			'', '', '', 
+			'', '', '', 
+		],
+		result: 'raigen:ground_blaze_powder',
+		amount: 4
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:daganite', 'minecraft:stone_pickaxe', 'raigen:daganite', 
+			'', 'minecraft:stick', '', 
+			'', 'minecraft:stick', '', 
+		],
+		result: 'raigen:daganite_warhammer',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:daganite', 'raigen:daganite', 'raigen:daganite', 
+			'raigen:daganite', 'minecraft:leather', 'raigen:daganite', 
+			'minecraft:string', 'minecraft:string', 'minecraft:string', 
+		],
+		result: 'raigen:daganite_gauntlet',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:daganite', 'raigen:daganite', 'raigen:daganite', 
+			'raigen:daganite', 'raigen:daganite', 'raigen:daganite', 
+			'raigen:daganite', 'raigen:daganite', 'raigen:daganite', 
+		],
+		result: 'raigen:daganite_bricks',
+		amount: 9
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite',
+		result: 'raigen:daganite_bricks',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:daganite_bricks', 'raigen:daganite_bricks', 'raigen:daganite_bricks', 
+		],
+		result: 'raigen:daganite_bricks_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite_bricks',
+		result: 'raigen:daganite_bricks_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:daganite_bricks', 
+			'', 'raigen:daganite_bricks', 'raigen:daganite_bricks', 
+			'raigen:daganite_bricks', 'raigen:daganite_bricks', 'raigen:daganite_bricks', 
+		],
+		result: 'raigen:daganite_bricks_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite_bricks',
+		result: 'raigen:daganite_bricks_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:daganite_bricks', 'raigen:daganite_bricks', 'raigen:daganite_bricks', 
+			'raigen:daganite_bricks', 'raigen:daganite_bricks', 'raigen:daganite_bricks', 
+		],
+		result: 'raigen:daganite_bricks_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite_bricks',
+		result: 'raigen:daganite_bricks_wall',
+		amount: 1
+	},
+	{
+		type: 'smelting',
+		intensity: ['furnace', 'blast_furnace', ],
+		input: 'raigen:cobbled_daganite',
+		result: 'raigen:daganite'
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:daganite', '', '', 
+			'raigen:daganite', '', '', 
+			'', '', '', 
+		],
+		result: 'raigen:daganite_pillar',
+		amount: 1
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite',
+		result: 'raigen:daganite_pillar',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:daganite', 'raigen:daganite', 'raigen:daganite', 
+		],
+		result: 'raigen:daganite_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite',
+		result: 'raigen:daganite_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:daganite', 
+			'', 'raigen:daganite', 'raigen:daganite', 
+			'raigen:daganite', 'raigen:daganite', 'raigen:daganite', 
+		],
+		result: 'raigen:daganite_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite',
+		result: 'raigen:daganite_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:daganite', 'raigen:daganite', 'raigen:daganite', 
+			'raigen:daganite', 'raigen:daganite', 'raigen:daganite', 
+		],
+		result: 'raigen:daganite_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite',
+		result: 'raigen:daganite_wall',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:cobbled_daganite', 'raigen:cobbled_daganite', 'raigen:cobbled_daganite', 
+		],
+		result: 'raigen:cobbled_daganite_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:cobbled_daganite',
+		result: 'raigen:cobbled_daganite_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:cobbled_daganite', 
+			'', 'raigen:cobbled_daganite', 'raigen:cobbled_daganite', 
+			'raigen:cobbled_daganite', 'raigen:cobbled_daganite', 'raigen:cobbled_daganite', 
+		],
+		result: 'raigen:cobbled_daganite_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:cobbled_daganite',
+		result: 'raigen:cobbled_daganite_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:cobbled_daganite', 'raigen:cobbled_daganite', 'raigen:cobbled_daganite', 
+			'raigen:cobbled_daganite', 'raigen:cobbled_daganite', 'raigen:cobbled_daganite', 
+		],
+		result: 'raigen:cobbled_daganite_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:cobbled_daganite',
+		result: 'raigen:cobbled_daganite_wall',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_daganite', 'raigen:polished_daganite', '', 
+			'raigen:polished_daganite', 'raigen:polished_daganite', '', 
+			'', '', '', 
+		],
+		result: 'raigen:polished_daganite',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite',
+		result: 'raigen:polished_daganite',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_daganite', '', '', 
+			'raigen:polished_daganite', '', '', 
+			'', '', '', 
+		],
+		result: 'raigen:polished_daganite_pillar',
+		amount: 1
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_daganite',
+		result: 'raigen:polished_daganite_pillar',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_daganite', 'raigen:polished_daganite', 'raigen:polished_daganite', 
+			'raigen:polished_daganite', 'raigen:polished_daganite', 'raigen:polished_daganite', 
+			'raigen:polished_daganite', 'raigen:polished_daganite', 'raigen:polished_daganite', 
+		],
+		result: 'raigen:polished_daganite_bricks',
+		amount: 9
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_daganite',
+		result: 'raigen:polished_daganite_bricks',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:polished_daganite', 'raigen:polished_daganite', 'raigen:polished_daganite', 
+		],
+		result: 'raigen:polished_daganite_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_daganite',
+		result: 'raigen:polished_daganite_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:polished_daganite', 
+			'', 'raigen:polished_daganite', 'raigen:polished_daganite', 
+			'raigen:polished_daganite', 'raigen:polished_daganite', 'raigen:polished_daganite', 
+		],
+		result: 'raigen:polished_daganite_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_daganite',
+		result: 'raigen:polished_daganite_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:polished_daganite', 'raigen:polished_daganite', 'raigen:polished_daganite', 
+			'raigen:polished_daganite', 'raigen:polished_daganite', 'raigen:polished_daganite', 
+		],
+		result: 'raigen:polished_daganite_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_daganite',
+		result: 'raigen:polished_daganite_wall',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:polished_daganite_bricks', 'raigen:polished_daganite_bricks', 'raigen:polished_daganite_bricks', 
+		],
+		result: 'raigen:polished_daganite_bricks_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_daganite_bricks',
+		result: 'raigen:polished_daganite_bricks_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:polished_daganite_bricks', 
+			'', 'raigen:polished_daganite_bricks', 'raigen:polished_daganite_bricks', 
+			'raigen:polished_daganite_bricks', 'raigen:polished_daganite_bricks', 'raigen:polished_daganite_bricks', 
+		],
+		result: 'raigen:polished_daganite_bricks_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_daganite_bricks',
+		result: 'raigen:polished_daganite_bricks_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:polished_daganite_bricks', 'raigen:polished_daganite_bricks', 'raigen:polished_daganite_bricks', 
+			'raigen:polished_daganite_bricks', 'raigen:polished_daganite_bricks', 'raigen:polished_daganite_bricks', 
+		],
+		result: 'raigen:polished_daganite_bricks_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_daganite_bricks',
+		result: 'raigen:polished_daganite_bricks_wall',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_daganite_slab', '', '', 
+			'raigen:polished_daganite_slab', '', '', 
+			'', '', '', 
+		],
+		result: 'raigen:chiseled_polished_daganite',
+		amount: 1
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_daganite',
+		result: 'raigen:chiseled_polished_daganite',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:daganite_slab', '', '', 
+			'raigen:daganite_slab', '', '', 
+			'', '', '', 
+		],
+		result: 'raigen:chiseled_daganite',
+		amount: 1
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite',
+		result: 'raigen:chiseled_daganite',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_daganite_slab', 'raigen:polished_daganite_slab', 'raigen:polished_daganite_slab', 
+			'raigen:polished_daganite_slab', 'raigen:polished_daganite', 'raigen:polished_daganite_slab', 
+			'raigen:polished_daganite_slab', 'raigen:polished_daganite_slab', 'raigen:polished_daganite_slab', 
+		],
+		result: 'raigen:beveled_daganite',
+		amount: 5
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite',
+		result: 'raigen:beveled_daganite',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:daganite_slab', 'raigen:daganite_slab', 'raigen:daganite_slab', 
+			'raigen:daganite_slab', 'raigen:chiseled_daganite', 'raigen:daganite_slab', 
+			'raigen:daganite_slab', 'raigen:daganite_slab', 'raigen:daganite_slab', 
+		],
+		result: 'raigen:carved_daganite',
+		amount: 5
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite',
+		result: 'raigen:carved_daganite',
+		amount: 1
+	}
 ];

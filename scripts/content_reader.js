@@ -213,14 +213,14 @@ if(cc.flat == name){
 			
 			var cellImg = document.createElement('div');
 			if(ty.toLowerCase() == 'items' || ty.toLowerCase() == 'blocks'){
-				cellImg.style.backgroundImage = `url('images/content/${name}/inventory/${cell.id.split(':')[1]}.png')`;
+				cellImg.style.backgroundImage = `url('images/content/${name}/inventory/${referenceAsset(cell.id).images[0]}')`;
 			}
 			else if(ty.toLowerCase() == 'entities'){
-				if(cell.attributes.variants == 0){ cellImg.style.backgroundImage = `url('images/content/${name}/${ty.toLowerCase()}/${cell.id.split(':')[1]}.png')`; }
-				else{ cellImg.style.backgroundImage = `url('images/content/${name}/${ty.toLowerCase()}/${cell.id.split(':')[1]}0.png')`; }
+				if(cell.attributes.variants == 0){ cellImg.style.backgroundImage = `url('images/content/${name}/${ty.toLowerCase()}/${referenceAsset(cell.id).images[0]}')`; }
+				else{ cellImg.style.backgroundImage = `url('images/content/${name}/${ty.toLowerCase()}/${referenceAsset(cell.id).images[0]}')`; }
 			}
 			else{
-				cellImg.style.backgroundImage = `url('images/content/${name}/${ty.toLowerCase()}/${cell.id.split(':')[1]}.png')`;
+				cellImg.style.backgroundImage = `url('images/content/${name}/${ty.toLowerCase()}/${referenceAsset(cell.id).images[0]}')`;
 			}
 			newBtn.appendChild(cellImg);
 			
@@ -230,3 +230,21 @@ if(cc.flat == name){
 		mainDes.appendChild(nD);
 	}
 }
+
+const tabs = [
+	'items',
+	'blocks',
+	'entities',
+	'structures',
+	'biomes',
+	'dimensions'
+];
+const url = window.location.href;
+setTimeout(() =>{
+	if(url.search('#') > -1){
+		let goToTab = url.split('#')[1];
+		if(tabs.includes(goToTab)){
+			document.querySelector(`[data-page="${goToTab}"]`).click();
+		};
+	}
+}, 1);

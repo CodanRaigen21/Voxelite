@@ -2,6 +2,12 @@ var tabBtn = document.querySelectorAll('.navCollection button');
 var pages = document.querySelectorAll('.descWrapper');
 tabBtn.forEach(tab =>{
 	tab.addEventListener('click', event => {
+		if(window.location.href.search('#') > -1){
+			window.location.href = `${window.location.href.split('#')[0]}#${tab.dataset.page}`;
+		}
+		else{
+			window.location.href = `${window.location.href}#${tab.dataset.page}`;
+		}
 		tabBtn.forEach(t => t.classList.remove('currentTab'));
 		tab.classList.add('currentTab');
 		!document.querySelector('.dataWrapper') ? null : document.querySelector('.dataWrapper').remove();
