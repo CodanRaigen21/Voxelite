@@ -19,16 +19,16 @@
 }
 @media (prefers-color-scheme: dark){
 	:root{
-		--cells:220;
 		--sat:30%;
 		--lig:35%;
-		--themeCol:hsl(195, 85%, 5%);
-		--accentCol:hsl(195, 80%, 50%);
-		--fontCol:hsl(215, 25%, 50%);
-		--panelCol:hsl(230, 35%, 35%, 20%);
-		--cellCol:hsl(var(--cells), var(--sat), calc(55% - var(--lig)));
-		--lightBorderCol:hsl(var(--cells), var(--sat), calc(75% - var(--lig)));
-		--darkBorderCol:hsl(var(--cells), var(--sat), calc(33% - var(--lig)));
+		--hue:195;
+		--themeCol:hsl(var(--hue), 85%, 5%);
+		--accentCol:hsl(var(--hue), 80%, 50%);
+		--fontCol:hsl(calc(var(--hue) + 20), 25%, 50%);
+		--panelCol:hsl(calc(var(--hue) + 35), 35%, 35%, 20%);
+		--cellCol:hsl(calc(var(--hue) + 25), var(--sat), calc(55% - var(--lig)));
+		--lightBorderCol:hsl(calc(var(--hue) + 25), var(--sat), calc(75% - var(--lig)));
+		--darkBorderCol:hsl(calc(var(--hue) + 25), var(--sat), calc(33% - var(--lig)));
 	}
 }
 :root{

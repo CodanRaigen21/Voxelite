@@ -6840,14 +6840,16 @@ const addonsList = [
 		]
 	},
 	{
-    "dat_link": "https://bstlar.com/2EF/absolutecarnagedat",
-		"res_link": "https://bstlar.com/2EF/absolutecarnageres",
+    "dat_link": "https://workink.net/1UHA/lvtabaot",
+		"res_link": "https://workink.net/1UHA/lvtaajr4",
 		"one_link": "",
     "title": "Absolute Carnage BETA",
     "flat": "absolute_carnage",
 		"short_description": "The final installment of Carnage.",
 		"tags": [
 			"survival",
+			"combat",
+			"mobs",
 			"items",
 			"blocks",
 			"industrial",
@@ -6869,9 +6871,10 @@ const addonsList = [
 			{
 				"type": "paragraph",
 				"data": [
-					"The final installment of Carnage which will feature 1000 unique monsters. This add-on will receive constant updates to achieve the 1000 mob goal. 200 mobs wave been made, 800 mobs are left. This version has 10 mobs so that's 790 mobs left to develop. I already have a list of mobs to develop so if you want to comment an idea, I'll consider it with your permission to use the idea.",
+					"The final installment of Carnage which will feature 1000 unique monsters. This add-on will receive constant updates to achieve the 1000 mob goal. 200 mobs wave been made, 800 mobs are left. This version has 20 mobs so that's 780 mobs left to develop. I already have a list of mobs to develop so if you want to comment an idea, I'll consider it with your permission to use the idea.",
 					"The add-on is also dependent on Mojang adding the ability for add-on developers to add custom biomes and dimensions. This is a long-term project too, so make sure to check my Twitter account for any news about Absolute Carnage.",
-					"This add-on is NOT compatible with Total Carnage, mobs from Total Carnage will be added at a later date."
+					"This add-on is NOT compatible with Total Carnage, mobs from Total Carnage will be added at a later date.",
+					"This add-on features a new form of combat by sneaking and interacting with certain items."
 				]
 			}
 		]

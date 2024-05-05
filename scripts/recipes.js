@@ -39566,5 +39566,900 @@ const recipes = [
 		input: 'raigen:daganite',
 		result: 'raigen:carved_daganite',
 		amount: 1
+	},
+	{
+		type: 'smelting',
+		intensity: ['furnace', 'smoker', 'campfire', ],
+		input: 'raigen:raw_agtarae',
+		result: 'raigen:cooked_agtarae'
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:denslate', 'minecraft:stone_pickaxe', 'raigen:denslate', 
+			'', 'minecraft:stick', '', 
+			'', 'minecraft:stick', '', 
+		],
+		result: 'raigen:denslate_warhammer',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:denslate', 'raigen:denslate', 'raigen:denslate', 
+			'raigen:denslate', 'minecraft:leather', 'raigen:denslate', 
+			'minecraft:string', 'minecraft:string', 'minecraft:string', 
+		],
+		result: 'raigen:denslate_gauntlet',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:denslate', 'raigen:denslate', 'raigen:denslate', 
+			'raigen:denslate', 'raigen:denslate', 'raigen:denslate', 
+			'raigen:denslate', 'raigen:denslate', 'raigen:denslate', 
+		],
+		result: 'raigen:denslate_bricks',
+		amount: 9
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:denslate',
+		result: 'raigen:denslate_bricks',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:denslate_bricks', 'raigen:denslate_bricks', 'raigen:denslate_bricks', 
+		],
+		result: 'raigen:denslate_bricks_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:denslate_bricks',
+		result: 'raigen:denslate_bricks_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:denslate_bricks', 
+			'', 'raigen:denslate_bricks', 'raigen:denslate_bricks', 
+			'raigen:denslate_bricks', 'raigen:denslate_bricks', 'raigen:denslate_bricks', 
+		],
+		result: 'raigen:denslate_bricks_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:denslate_bricks',
+		result: 'raigen:denslate_bricks_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:denslate_bricks', 'raigen:denslate_bricks', 'raigen:denslate_bricks', 
+			'raigen:denslate_bricks', 'raigen:denslate_bricks', 'raigen:denslate_bricks', 
+		],
+		result: 'raigen:denslate_bricks_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:denslate_bricks',
+		result: 'raigen:denslate_bricks_wall',
+		amount: 1
+	},
+	{
+		type: 'smelting',
+		intensity: ['furnace', 'blast_furnace', ],
+		input: 'raigen:cobbled_denslate',
+		result: 'raigen:denslate'
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:denslate', '', '', 
+			'raigen:denslate', '', '', 
+			'', '', '', 
+		],
+		result: 'raigen:denslate_pillar',
+		amount: 1
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:denslate',
+		result: 'raigen:denslate_pillar',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:denslate', 'raigen:denslate', 'raigen:denslate', 
+		],
+		result: 'raigen:denslate_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:denslate',
+		result: 'raigen:denslate_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:denslate', 
+			'', 'raigen:denslate', 'raigen:denslate', 
+			'raigen:denslate', 'raigen:denslate', 'raigen:denslate', 
+		],
+		result: 'raigen:denslate_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:denslate',
+		result: 'raigen:denslate_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:denslate', 'raigen:denslate', 'raigen:denslate', 
+			'raigen:denslate', 'raigen:denslate', 'raigen:denslate', 
+		],
+		result: 'raigen:denslate_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:denslate',
+		result: 'raigen:denslate_wall',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:cobbled_denslate', 'raigen:cobbled_denslate', 'raigen:cobbled_denslate', 
+		],
+		result: 'raigen:cobbled_denslate_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:cobbled_denslate',
+		result: 'raigen:cobbled_denslate_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:cobbled_denslate', 
+			'', 'raigen:cobbled_denslate', 'raigen:cobbled_denslate', 
+			'raigen:cobbled_denslate', 'raigen:cobbled_denslate', 'raigen:cobbled_denslate', 
+		],
+		result: 'raigen:cobbled_denslate_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:cobbled_denslate',
+		result: 'raigen:cobbled_denslate_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:cobbled_denslate', 'raigen:cobbled_denslate', 'raigen:cobbled_denslate', 
+			'raigen:cobbled_denslate', 'raigen:cobbled_denslate', 'raigen:cobbled_denslate', 
+		],
+		result: 'raigen:cobbled_denslate_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:cobbled_denslate',
+		result: 'raigen:cobbled_denslate_wall',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_denslate', 'raigen:polished_denslate', '', 
+			'raigen:polished_denslate', 'raigen:polished_denslate', '', 
+			'', '', '', 
+		],
+		result: 'raigen:polished_denslate',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:denslate',
+		result: 'raigen:polished_denslate',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_denslate', '', '', 
+			'raigen:polished_denslate', '', '', 
+			'', '', '', 
+		],
+		result: 'raigen:polished_denslate_pillar',
+		amount: 1
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_denslate',
+		result: 'raigen:polished_denslate_pillar',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_denslate', 'raigen:polished_denslate', 'raigen:polished_denslate', 
+			'raigen:polished_denslate', 'raigen:polished_denslate', 'raigen:polished_denslate', 
+			'raigen:polished_denslate', 'raigen:polished_denslate', 'raigen:polished_denslate', 
+		],
+		result: 'raigen:polished_denslate_bricks',
+		amount: 9
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_denslate',
+		result: 'raigen:polished_denslate_bricks',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:polished_denslate', 'raigen:polished_denslate', 'raigen:polished_denslate', 
+		],
+		result: 'raigen:polished_denslate_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_denslate',
+		result: 'raigen:polished_denslate_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:polished_denslate', 
+			'', 'raigen:polished_denslate', 'raigen:polished_denslate', 
+			'raigen:polished_denslate', 'raigen:polished_denslate', 'raigen:polished_denslate', 
+		],
+		result: 'raigen:polished_denslate_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_denslate',
+		result: 'raigen:polished_denslate_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:polished_denslate', 'raigen:polished_denslate', 'raigen:polished_denslate', 
+			'raigen:polished_denslate', 'raigen:polished_denslate', 'raigen:polished_denslate', 
+		],
+		result: 'raigen:polished_denslate_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_denslate',
+		result: 'raigen:polished_denslate_wall',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:polished_denslate_bricks', 'raigen:polished_denslate_bricks', 'raigen:polished_denslate_bricks', 
+		],
+		result: 'raigen:polished_denslate_bricks_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_denslate_bricks',
+		result: 'raigen:polished_denslate_bricks_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:polished_denslate_bricks', 
+			'', 'raigen:polished_denslate_bricks', 'raigen:polished_denslate_bricks', 
+			'raigen:polished_denslate_bricks', 'raigen:polished_denslate_bricks', 'raigen:polished_denslate_bricks', 
+		],
+		result: 'raigen:polished_denslate_bricks_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_denslate_bricks',
+		result: 'raigen:polished_denslate_bricks_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:polished_denslate_bricks', 'raigen:polished_denslate_bricks', 'raigen:polished_denslate_bricks', 
+			'raigen:polished_denslate_bricks', 'raigen:polished_denslate_bricks', 'raigen:polished_denslate_bricks', 
+		],
+		result: 'raigen:polished_denslate_bricks_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_denslate_bricks',
+		result: 'raigen:polished_denslate_bricks_wall',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_denslate_slab', '', '', 
+			'raigen:polished_denslate_slab', '', '', 
+			'', '', '', 
+		],
+		result: 'raigen:chiseled_polished_denslate',
+		amount: 1
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_denslate',
+		result: 'raigen:chiseled_polished_denslate',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:denslate_slab', '', '', 
+			'raigen:denslate_slab', '', '', 
+			'', '', '', 
+		],
+		result: 'raigen:chiseled_denslate',
+		amount: 1
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:denslate',
+		result: 'raigen:chiseled_denslate',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_denslate_slab', 'raigen:polished_denslate_slab', 'raigen:polished_denslate_slab', 
+			'raigen:polished_denslate_slab', 'raigen:polished_denslate', 'raigen:polished_denslate_slab', 
+			'raigen:polished_denslate_slab', 'raigen:polished_denslate_slab', 'raigen:polished_denslate_slab', 
+		],
+		result: 'raigen:beveled_denslate',
+		amount: 5
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:denslate',
+		result: 'raigen:beveled_denslate',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:denslate_slab', 'raigen:denslate_slab', 'raigen:denslate_slab', 
+			'raigen:denslate_slab', 'raigen:chiseled_denslate', 'raigen:denslate_slab', 
+			'raigen:denslate_slab', 'raigen:denslate_slab', 'raigen:denslate_slab', 
+		],
+		result: 'raigen:carved_denslate',
+		amount: 5
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite',
+		result: 'raigen:carved_daganite',
+		amount: 1
+	},
+	{
+		type: 'smelting',
+		intensity: ['furnace', 'smoker', 'campfire', ],
+		input: 'raigen:raw_phantapod_calamari',
+		result: 'raigen:cooked_phantapod_calamari'
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:lugho_rubble', 'raigen:lugho_rubble', '', 
+			'raigen:lugho_rubble', 'raigen:lugho_rubble', '', 
+			'', '', ''
+		],
+		result: 'raigen:denslate',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:verdice', 'minecraft:stone_pickaxe', 'raigen:verdice', 
+			'', 'minecraft:stick', '', 
+			'', 'minecraft:stick', '', 
+		],
+		result: 'raigen:verdice_warhammer',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:verdice', 'raigen:verdice', 'raigen:verdice', 
+			'raigen:verdice', 'minecraft:leather', 'raigen:verdice', 
+			'minecraft:string', 'minecraft:string', 'minecraft:string', 
+		],
+		result: 'raigen:verdice_gauntlet',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:verdice', 'raigen:verdice', 'raigen:verdice', 
+			'raigen:verdice', 'raigen:verdice', 'raigen:verdice', 
+			'raigen:verdice', 'raigen:verdice', 'raigen:verdice', 
+		],
+		result: 'raigen:verdice_bricks',
+		amount: 9
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:verdice',
+		result: 'raigen:verdice_bricks',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:verdice_bricks', 'raigen:verdice_bricks', 'raigen:verdice_bricks', 
+		],
+		result: 'raigen:verdice_bricks_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:verdice_bricks',
+		result: 'raigen:verdice_bricks_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:verdice_bricks', 
+			'', 'raigen:verdice_bricks', 'raigen:verdice_bricks', 
+			'raigen:verdice_bricks', 'raigen:verdice_bricks', 'raigen:verdice_bricks', 
+		],
+		result: 'raigen:verdice_bricks_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:verdice_bricks',
+		result: 'raigen:verdice_bricks_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:verdice_bricks', 'raigen:verdice_bricks', 'raigen:verdice_bricks', 
+			'raigen:verdice_bricks', 'raigen:verdice_bricks', 'raigen:verdice_bricks', 
+		],
+		result: 'raigen:verdice_bricks_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:verdice_bricks',
+		result: 'raigen:verdice_bricks_wall',
+		amount: 1
+	},
+	{
+		type: 'smelting',
+		intensity: ['furnace', 'blast_furnace', ],
+		input: 'raigen:cobbled_verdice',
+		result: 'raigen:verdice'
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:verdice', '', '', 
+			'raigen:verdice', '', '', 
+			'', '', '', 
+		],
+		result: 'raigen:verdice_pillar',
+		amount: 1
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:verdice',
+		result: 'raigen:verdice_pillar',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:verdice', 'raigen:verdice', 'raigen:verdice', 
+		],
+		result: 'raigen:verdice_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:verdice',
+		result: 'raigen:verdice_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:verdice', 
+			'', 'raigen:verdice', 'raigen:verdice', 
+			'raigen:verdice', 'raigen:verdice', 'raigen:verdice', 
+		],
+		result: 'raigen:verdice_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:verdice',
+		result: 'raigen:verdice_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:verdice', 'raigen:verdice', 'raigen:verdice', 
+			'raigen:verdice', 'raigen:verdice', 'raigen:verdice', 
+		],
+		result: 'raigen:verdice_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:verdice',
+		result: 'raigen:verdice_wall',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:cobbled_verdice', 'raigen:cobbled_verdice', 'raigen:cobbled_verdice', 
+		],
+		result: 'raigen:cobbled_verdice_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:cobbled_verdice',
+		result: 'raigen:cobbled_verdice_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:cobbled_verdice', 
+			'', 'raigen:cobbled_verdice', 'raigen:cobbled_verdice', 
+			'raigen:cobbled_verdice', 'raigen:cobbled_verdice', 'raigen:cobbled_verdice', 
+		],
+		result: 'raigen:cobbled_verdice_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:cobbled_verdice',
+		result: 'raigen:cobbled_verdice_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:cobbled_verdice', 'raigen:cobbled_verdice', 'raigen:cobbled_verdice', 
+			'raigen:cobbled_verdice', 'raigen:cobbled_verdice', 'raigen:cobbled_verdice', 
+		],
+		result: 'raigen:cobbled_verdice_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:cobbled_verdice',
+		result: 'raigen:cobbled_verdice_wall',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_verdice', 'raigen:polished_verdice', '', 
+			'raigen:polished_verdice', 'raigen:polished_verdice', '', 
+			'', '', '', 
+		],
+		result: 'raigen:polished_verdice',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:verdice',
+		result: 'raigen:polished_verdice',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_verdice', '', '', 
+			'raigen:polished_verdice', '', '', 
+			'', '', '', 
+		],
+		result: 'raigen:polished_verdice_pillar',
+		amount: 1
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_verdice',
+		result: 'raigen:polished_verdice_pillar',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_verdice', 'raigen:polished_verdice', 'raigen:polished_verdice', 
+			'raigen:polished_verdice', 'raigen:polished_verdice', 'raigen:polished_verdice', 
+			'raigen:polished_verdice', 'raigen:polished_verdice', 'raigen:polished_verdice', 
+		],
+		result: 'raigen:polished_verdice_bricks',
+		amount: 9
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_verdice',
+		result: 'raigen:polished_verdice_bricks',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:polished_verdice', 'raigen:polished_verdice', 'raigen:polished_verdice', 
+		],
+		result: 'raigen:polished_verdice_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_verdice',
+		result: 'raigen:polished_verdice_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:polished_verdice', 
+			'', 'raigen:polished_verdice', 'raigen:polished_verdice', 
+			'raigen:polished_verdice', 'raigen:polished_verdice', 'raigen:polished_verdice', 
+		],
+		result: 'raigen:polished_verdice_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_verdice',
+		result: 'raigen:polished_verdice_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:polished_verdice', 'raigen:polished_verdice', 'raigen:polished_verdice', 
+			'raigen:polished_verdice', 'raigen:polished_verdice', 'raigen:polished_verdice', 
+		],
+		result: 'raigen:polished_verdice_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_verdice',
+		result: 'raigen:polished_verdice_wall',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'', '', '', 
+			'raigen:polished_verdice_bricks', 'raigen:polished_verdice_bricks', 'raigen:polished_verdice_bricks', 
+		],
+		result: 'raigen:polished_verdice_bricks_slab',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_verdice_bricks',
+		result: 'raigen:polished_verdice_bricks_slab',
+		amount: 2
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', 'raigen:polished_verdice_bricks', 
+			'', 'raigen:polished_verdice_bricks', 'raigen:polished_verdice_bricks', 
+			'raigen:polished_verdice_bricks', 'raigen:polished_verdice_bricks', 'raigen:polished_verdice_bricks', 
+		],
+		result: 'raigen:polished_verdice_bricks_stairs',
+		amount: 4
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_verdice_bricks',
+		result: 'raigen:polished_verdice_bricks_stairs',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'', '', '', 
+			'raigen:polished_verdice_bricks', 'raigen:polished_verdice_bricks', 'raigen:polished_verdice_bricks', 
+			'raigen:polished_verdice_bricks', 'raigen:polished_verdice_bricks', 'raigen:polished_verdice_bricks', 
+		],
+		result: 'raigen:polished_verdice_bricks_wall',
+		amount: 6
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_verdice_bricks',
+		result: 'raigen:polished_verdice_bricks_wall',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_verdice_slab', '', '', 
+			'raigen:polished_verdice_slab', '', '', 
+			'', '', '', 
+		],
+		result: 'raigen:chiseled_polished_verdice',
+		amount: 1
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:polished_verdice',
+		result: 'raigen:chiseled_polished_verdice',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:verdice_slab', '', '', 
+			'raigen:verdice_slab', '', '', 
+			'', '', '', 
+		],
+		result: 'raigen:chiseled_verdice',
+		amount: 1
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:verdice',
+		result: 'raigen:chiseled_verdice',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:polished_verdice_slab', 'raigen:polished_verdice_slab', 'raigen:polished_verdice_slab', 
+			'raigen:polished_verdice_slab', 'raigen:polished_verdice', 'raigen:polished_verdice_slab', 
+			'raigen:polished_verdice_slab', 'raigen:polished_verdice_slab', 'raigen:polished_verdice_slab', 
+		],
+		result: 'raigen:beveled_verdice',
+		amount: 5
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:verdice',
+		result: 'raigen:beveled_verdice',
+		amount: 1
+	},
+	{
+		type: 'crafting',
+		tool: 'minecraft:crafting_table',
+		pattern: [
+			'raigen:verdice_slab', 'raigen:verdice_slab', 'raigen:verdice_slab', 
+			'raigen:verdice_slab', 'raigen:chiseled_verdice', 'raigen:verdice_slab', 
+			'raigen:verdice_slab', 'raigen:verdice_slab', 'raigen:verdice_slab', 
+		],
+		result: 'raigen:carved_verdice',
+		amount: 5
+	},
+	{
+		type: 'stonecutting',
+		input: 'raigen:daganite',
+		result: 'raigen:carved_daganite',
+		amount: 1
 	}
 ];
