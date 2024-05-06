@@ -6840,8 +6840,8 @@ const addonsList = [
 		]
 	},
 	{
-    "dat_link": "https://workink.net/1UHA/lvtabaot",
-		"res_link": "https://workink.net/1UHA/lvtaajr4",
+    "dat_link": "https://bstlar.com/2EF/absolutecarnagedat",
+		"res_link": "https://bstlar.com/2EF/absolutecarnageres",
 		"one_link": "",
     "title": "Absolute Carnage BETA",
     "flat": "absolute_carnage",
