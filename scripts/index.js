@@ -1047,7 +1047,7 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 	cell.dataset.tag = i.tag.toLowerCase().replaceAll(" ", "_");
 	
 	const img = document.createElement("img");
-	img.src = `https://github.com/CodanRaigen21/Voxelite/blob/main/images/${i.image}`;
+	img.src = `https://raw.githubusercontent.com/CodanRaigen21/Voxelite/blob/main/images/${i.image}`;
 	cell.appendChild(img);
 	
 	const name = document.createElement("h3");
