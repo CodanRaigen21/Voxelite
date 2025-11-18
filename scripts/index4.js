@@ -1041,6 +1041,136 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "LEGO",
 		image: "76321.webp"
 	},
+	{
+		name: "Pagani Utopia",
+		tag: "Hotwheels",
+		image: "000001.webp"
+	},
+	{
+		name: "2020 Koenigsegg Jesko",
+		tag: "Hotwheels",
+		image: "000002.webp"
+	},
+	{
+		name: "Ford GT",
+		tag: "Hotwheels",
+		image: "000003.webp"
+	},
+	{
+		name: "Porsche 904 Carrera GTS",
+		tag: "Hotwheels",
+		image: "000004.webp"
+	},
+	{
+		name: "Porsche 911 Rallye",
+		tag: "Hotwheels",
+		image: "000005.webp"
+	},
+	{
+		name: "Peugeot 9X8 Hypercar",
+		tag: "Hotwheels",
+		image: "000006.webp"
+	},
+	{
+		name: "Proton Saga",
+		tag: "Hotwheels",
+		image: "000007.webp"
+	},
+	{
+		name: "HW Ultimate T-Rex Transporter",
+		tag: "Hotwheels",
+		image: "000008.webp"
+	},
+	{
+		name: "'98 Subaru Impreza 22B STi-Version",
+		tag: "Hotwheels",
+		image: "000009.webp"
+	},
+	{
+		name: "BMW M1 Procar",
+		tag: "Hotwheels",
+		image: "000010.webp"
+	},
+	{
+		name: "Lamborghini Huracán Sterrato",
+		tag: "Hotwheels",
+		image: "000011.webp"
+	},
+	{
+		name: "Mazda 787B",
+		tag: "Hotwheels",
+		image: "000012.webp"
+	},
+	{
+		name: "2018 Bentley Continental GT3",
+		tag: "Hotwheels",
+		image: "000013.webp"
+	},
+	{
+		name: "Mazda 323 GTR",
+		tag: "Hotwheels",
+		image: "000014.webp"
+	},
+	{
+		name: "2001 BMW M5",
+		tag: "Hotwheels",
+		image: "000015.webp"
+	},
+	{
+		name: "BMW M1",
+		tag: "Hotwheels",
+		image: "000016.webp"
+	},
+	{
+		name: "BMW M4",
+		tag: "Hotwheels",
+		image: "000017.webp"
+	},
+	{
+		name: "2021 BMW M5",
+		tag: "Hotwheels",
+		image: "000018.webp"
+	},
+	{
+		name: "'73 Pontiac Firebird",
+		tag: "Hotwheels",
+		image: "000019.webp"
+	},
+	{
+		name: "Porsche 917 LH",
+		tag: "Hotwheels",
+		image: "000020.webp"
+	},
+	{
+		name: "Mad Mike Mazda RX-3 Wagon",
+		tag: "Hotwheels",
+		image: "000021.webp"
+	},
+	{
+		name: "Mercedes-Benz 500 E",
+		tag: "Hotwheels",
+		image: "000022.webp"
+	},
+	{
+		name: "Shelby Cobra Daytona Coupe",
+		tag: "Hotwheels",
+		image: "000023.webp"
+	},
+	{
+		name: "'73 Volvo 142 GL",
+		tag: "Hotwheels",
+		image: "000024.webp"
+	},
+	{
+		name: "Koenigsegg CCXR",
+		tag: "Hotwheels",
+		image: "000025.webp"
+	},
+	{
+		name: "Lancer Evolution IX",
+		tag: "Hotwheels",
+		image: "000026.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
