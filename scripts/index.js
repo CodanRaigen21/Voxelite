@@ -1221,6 +1221,46 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "Hotwheels",
 		image: "hotwheels_000036.webp"
 	},
+	{
+		name: "Custom Kia EV6",
+		tag: "Hotwheels",
+		image: "hotwheels_000037.webp"
+	},
+	{
+		name: "HW Ultimate T-Rex Transporter",
+		tag: "Hotwheels",
+		image: "hotwheels_000038.webp"
+	},
+	{
+		name: "'68 Plymouth Barracuda Formula S",
+		tag: "Hotwheels",
+		image: "hotwheels_000039.webp"
+	},
+	{
+		name: "'70 Dodge Charger RT",
+		tag: "Hotwheels",
+		image: "hotwheels_000040.webp"
+	},
+	{
+		name: "1966 Chevrolet Impala",
+		tag: "Hotwheels",
+		image: "hotwheels_000041.webp"
+	},
+	{
+		name: "Nissan Silvia (S13)",
+		tag: "Hotwheels",
+		image: "hotwheels_000042.webp"
+	},
+	{
+		name: "Porsche 911 GT3 RS",
+		tag: "Hotwheels",
+		image: "hotwheels_000043.webp"
+	},
+	{
+		name: "LEGO Titanic",
+		tag: "LEGO",
+		image: "10294.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
