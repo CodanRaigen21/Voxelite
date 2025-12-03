@@ -1261,6 +1261,36 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "LEGO",
 		image: "10294.webp"
 	},
+	{
+		name: "'82 Toyota Supra",
+		tag: "Hotwheels",
+		image: "hotwheels_000044.webp"
+	},
+	{
+		name: "Nissan Skyline HT 2000GT-X",
+		tag: "Hotwheels",
+		image: "hotwheels_000045.webp"
+	},
+	{
+		name: "Custom '01 Acura Integra GSR",
+		tag: "Hotwheels",
+		image: "hotwheels_000046.webp"
+	},
+	{
+		name: "'91 Mazda MX-5 Miata",
+		tag: "Hotwheels",
+		image: "hotwheels_000047.webp"
+	},
+	{
+		name: "Honda Civic Si",
+		tag: "Hotwheels",
+		image: "hotwheels_000048.webp"
+	},
+	{
+		name: "'71 Datsun 510",
+		tag: "Hotwheels",
+		image: "hotwheels_000049.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
