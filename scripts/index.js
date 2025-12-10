@@ -1032,12 +1032,12 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		image: "hotwheels_523545.webp"
 	},
 	{
-		name: "LEGO City Cargo Train",
+		name: "7939 LEGO City Cargo Train",
 		tag: "LEGO",
 		image: "7939.webp"
 	},
 	{
-		name: "LEGO Super Heroes Marvel Spider-Man vs. Doc Ock Subway Train Scene",
+		name: "76321 LEGO Super Heroes Marvel Spider-Man vs. Doc Ock Subway Train Scene",
 		tag: "LEGO",
 		image: "76321.webp"
 	},
@@ -1257,7 +1257,7 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		image: "hotwheels_000043.webp"
 	},
 	{
-		name: "LEGO Titanic",
+		name: "10294 LEGO Titanic",
 		tag: "LEGO",
 		image: "10294.webp"
 	}
