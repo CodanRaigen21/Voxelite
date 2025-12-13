@@ -764,7 +764,7 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 	{
 		name: "Volvo EC220 Excavator",
 		tag: "Maisto",
-		image: "maisto_983745.webp"
+		image: "maisto_000001.webp"
 	},
 	{
 		name: "Nissan 300ZX Twin Turbo",
@@ -1260,6 +1260,21 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		name: "LEGO Titanic",
 		tag: "LEGO",
 		image: "10294.webp"
+	},
+	{
+		name: "'70 Ford Escort RS1600",
+		tag: "Hotwheels",
+		image: "hotwheels_000044.webp"
+	},
+	{
+		name: "'88 Honda CR-X",
+		tag: "Hotwheels",
+		image: "hotwheels_000045.webp"
+	},
+	{
+		name: "Maisto Mini Working Machines Bobcat T40.180SLP Telehandler w/Man Platform",
+		tag: "Maisto",
+		image: "maisto_000002.webp"
 	}
 ].forEach(i =>{
 	const cell = document.createElement("span");
