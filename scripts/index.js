@@ -1275,7 +1275,27 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		name: "Maisto Mini Working Machines Bobcat T40.180SLP Telehandler w/Man Platform",
 		tag: "Maisto",
 		image: "maisto_000002.webp"
-	}
+	},
+	{
+		name: "BMW i8 Roadster",
+		tag: "Hotwheels",
+		image: "hotwheels_000046.webp"
+	},
+	{
+		name: "McLaren P1",
+		tag: "Hotwheels",
+		image: "hotwheels_000047.webp"
+	},
+	{
+		name: "'17 Acura NSX",
+		tag: "Hotwheels",
+		image: "hotwheels_000048.webp"
+	},
+	{
+		name: "Porsche Panamera Turbo S E-Hybrid Sport Turismo",
+		tag: "Hotwheels",
+		image: "hotwheels_000049.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
