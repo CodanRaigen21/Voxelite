@@ -1296,6 +1296,21 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "Hotwheels",
 		image: "hotwheels_000049.webp"
 	},
+	{
+		name: "1956 Corvette",
+		tag: "Hotwheels",
+		image: "hotwheels_000050.webp"
+	},
+	{
+		name: "Pagani Zonda R",
+		tag: "Hotwheels",
+		image: "hotwheels_000051.webp"
+	},
+	{
+		name: "Ford Mustang GTD",
+		tag: "Hotwheels",
+		image: "hotwheels_000052.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
