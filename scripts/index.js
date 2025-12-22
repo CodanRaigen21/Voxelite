@@ -1311,6 +1311,11 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "Hotwheels",
 		image: "hotwheels_000052.webp"
 	},
+	{
+		name: "1967 El Camino",
+		tag: "Hotwheels",
+		image: "hotwheels_000053.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
