@@ -1316,6 +1316,16 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "Hotwheels",
 		image: "hotwheels_000053.webp"
 	},
+	{
+		name: "DDA40X LOCOMOTIVE",
+		tag: "Nifeliz",
+		image: "nf10296.webp"
+	},
+	{
+		name: "BIG BOY LOCOMOTIVE",
+		tag: "Nifeliz",
+		image: "nf10263.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
