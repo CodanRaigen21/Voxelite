@@ -1326,6 +1326,61 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "Nifeliz",
 		image: "nf10263.webp"
 	},
+	{
+		name: "'82 Toyota Supra",
+		tag: "Hotwheels",
+		image: "hotwheels_000054.webp"
+	},
+	{
+		name: "Dodge Viper RT/10",
+		tag: "Hotwheels",
+		image: "hotwheels_000055.webp"
+	},
+	{
+		name: "'87 Buick Regal GNX",
+		tag: "Hotwheels",
+		image: "hotwheels_000056.webp"
+	},
+	{
+		name: "'89 Porsche 944 Turbo",
+		tag: "Hotwheels",
+		image: "hotwheels_000057.webp"
+	},
+	{
+		name: "'83 Chevy Silverado",
+		tag: "Hotwheels",
+		image: "hotwheels_000058.webp"
+	},
+	{
+		name: "Volkswagen Golf Mk2",
+		tag: "Hotwheels",
+		image: "hotwheels_000059.webp"
+	},
+	{
+		name: "BMW M3 Race",
+		tag: "Hotwheels",
+		image: "hotwheels_000060.webp"
+	},
+	{
+		name: "Nissan Skyline GT-R (R32)",
+		tag: "Hotwheels",
+		image: "hotwheels_000061.webp"
+	},
+	{
+		name: "'94 Audi Avant RS2",
+		tag: "Hotwheels",
+		image: "hotwheels_000062.webp"
+	},
+	{
+		name: "Porsche 356 Outlaw",
+		tag: "Hotwheels",
+		image: "hotwheels_000063.webp"
+	},
+	{
+		name: "'65 Pontiac GTO",
+		tag: "Hotwheels",
+		image: "hotwheels_000064.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
