@@ -1381,6 +1381,41 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "Hotwheels",
 		image: "hotwheels_000064.webp"
 	},
+	{
+		name: "'81 Toyota Starlet KP61",
+		tag: "Hotwheels",
+		image: "hotwheels_000065.webp"
+	},
+	{
+		name: "BMW 507",
+		tag: "Hotwheels",
+		image: "hotwheels_000066.webp"
+	},
+	{
+		name: "Mercedes-Benz 190 E 2.5-16",
+		tag: "Hotwheels",
+		image: "hotwheels_000067.webp"
+	},
+	{
+		name: "Audi RS 5 Coupe",
+		tag: "Hotwheels",
+		image: "hotwheels_000068.webp"
+	},
+	{
+		name: "Alfa Romeo GTV6 30",
+		tag: "Hotwheels",
+		image: "hotwheels_000069.webp"
+	},
+	{
+		name: "Volkswagen Golf Mk7",
+		tag: "Hotwheels",
+		image: "hotwheels_000070.webp"
+	},
+	{
+		name: "1996 Porsche 911 Carrera",
+		tag: "Hotwheels",
+		image: "hotwheels_000071.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
