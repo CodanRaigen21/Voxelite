@@ -1416,6 +1416,16 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "Hotwheels",
 		image: "hotwheels_000071.webp"
 	},
+	{
+		name: "'89 Mazda Savanna RX-7 FC3S",
+		tag: "Hotwheels",
+		image: "hotwheels_000072.webp"
+	},
+	{
+		name: "Volkswagen T1-GTR",
+		tag: "Hotwheels",
+		image: "hotwheels_000073.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
