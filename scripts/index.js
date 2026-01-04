@@ -1426,6 +1426,26 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "Hotwheels",
 		image: "hotwheels_000073.webp"
 	},
+	{
+		name: "2018 Bentley Continental GT3",
+		tag: "Hotwheels",
+		image: "hotwheels_000074.webp"
+	},
+	{
+		name: "Nissan Skyline GT-R (BNR32)",
+		tag: "Hotwheels",
+		image: "hotwheels_000075.webp"
+	},
+	{
+		name: "Porsche 917KH",
+		tag: "Hotwheels",
+		image: "hotwheels_000076.webp"
+	},
+	{
+		name: "LaFerrari",
+		tag: "Hotwheels",
+		image: "hotwheels_000077.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
