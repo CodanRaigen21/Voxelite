@@ -1446,6 +1446,31 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "Hotwheels",
 		image: "hotwheels_000077.webp"
 	},
+	{
+		name: "Aston Martin Vulcan",
+		tag: "Hotwheels",
+		image: "hotwheels_000078.webp"
+	},
+	{
+		name: "Ferrari SF90 Stradale",
+		tag: "Hotwheels",
+		image: "hotwheels_000079.webp"
+	},
+	{
+		name: "'17 Ford GT",
+		tag: "Hotwheels",
+		image: "hotwheels_000080.webp"
+	},
+	{
+		name: "Lamborghini Huracán LP 610-4",
+		tag: "Hotwheels",
+		image: "hotwheels_000081.webp"
+	},
+	{
+		name: "Lotus Evija",
+		tag: "Hotwheels",
+		image: "hotwheels_000082.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
