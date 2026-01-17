@@ -1471,6 +1471,16 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "Hotwheels",
 		image: "hotwheels_000082.webp"
 	},
+	{
+		name: "'69 COPO Corvette",
+		tag: "Hotwheels",
+		image: "hotwheels_000083.webp"
+	},
+	{
+		name: "Porsche 911 Turbo Cabriolet",
+		tag: "Hotwheels",
+		image: "hotwheels_000084.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
