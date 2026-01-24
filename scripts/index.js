@@ -1481,6 +1481,36 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "Hotwheels",
 		image: "hotwheels_000084.webp"
 	},
+	{
+		name: "McLaren Speedtail",
+		tag: "Hotwheels",
+		image: "hotwheels_000085.webp"
+	},
+	{
+		name: "'96 Nissan 180SX Type X",
+		tag: "Hotwheels",
+		image: "hotwheels_000086.webp"
+	},
+	{
+		name: "Mitsubishi Lancer Evolution VI",
+		tag: "Hotwheels",
+		image: "hotwheels_000087.webp"
+	},
+	{
+		name: "'95 Toyota Celica GT-Four",
+		tag: "Hotwheels",
+		image: "hotwheels_000088.webp"
+	},
+	{
+		name: "'92 Honda Civic EG",
+		tag: "Hotwheels",
+		image: "hotwheels_000089.webp"
+	},
+	{
+		name: "VW Bug",
+		tag: "Hotwheels",
+		image: "hotwheels_000090.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
