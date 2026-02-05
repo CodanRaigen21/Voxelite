@@ -1511,6 +1511,211 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "Hotwheels",
 		image: "hotwheels_000090.webp"
 	},
+	{
+		name: "Alfa Romeo Giulia TI Super",
+		tag: "Hotwheels",
+		image: "hotwheels_000091.webp"
+	},
+	{
+		name: "Mazda RX-3",
+		tag: "Hotwheels",
+		image: "hotwheels_000092.webp"
+	},
+	{
+		name: "'95 Mazda RX-7",
+		tag: "Hotwheels",
+		image: "hotwheels_000093.webp"
+	},
+	{
+		name: "Mercedes-Benz 500 E",
+		tag: "Hotwheels",
+		image: "hotwheels_000094.webp"
+	},
+	{
+		name: "2018 Honda Civic Type R",
+		tag: "Hotwheels",
+		image: "hotwheels_000095.webp"
+	},
+	{
+		name: "2018 Honda Civic Type R",
+		tag: "Hotwheels",
+		image: "hotwheels_000096.webp"
+	},
+	{
+		name: "TOMICA No.64 Toyota VOXY",
+		tag: "Tomica",
+		image: "tomica_188919.webp"
+	},
+	{
+		name: "TOMICA No.88 NISSAN FAIRLADY Z NISMO",
+		tag: "Tomica",
+		image: "tomica_229261.webp"
+	},
+	{
+		name: "TOMICA No.117-09 Suzuki Super Carry '25",
+		tag: "Tomica",
+		image: "tomica_950608.webp"
+	},
+	{
+		name: "TOMICA No.18 NISSAN NV350 CARAVAN AMBULANCE",
+		tag: "Tomica",
+		image: "tomica_950608.webp"
+	},
+	{
+		name: "TOMICA No.94 NISSAN SERENA",
+		tag: "Tomica",
+		image: "tomica_228554.webp"
+	},
+	{
+		name: "TOMICA No.60 NISSAN GT-R NISMO",
+		tag: "Tomica",
+		image: "tomica_228455.webp"
+	},
+	{
+		name: "TOMICA No.7 Mercedes-AMG GT R",
+		tag: "Tomica",
+		image: "tomica_879602.webp"
+	},
+	{
+		name: "TOMICA No.13 NISSAN GT-R NISMO GT500",
+		tag: "Tomica",
+		image: "tomica_102618.webp"
+	},
+	{
+		name: "TOMICA No.12 Toyota ALPHARD",
+		tag: "Tomica",
+		image: "tomica_824848.webp"
+	},
+	{
+		name: "TOMICA No.120 Honda CIVIC TYPE R Race Control Car",
+		tag: "Tomica",
+		image: "tomica_917113.webp"
+	},
+	{
+		name: "TOMICA No.89 MOUNTAIN RESCUE VEHICLE",
+		tag: "Tomica",
+		image: "tomica_228189.webp"
+	},
+	{
+		name: "TOMICA No.78 Honda CIVIC TYPE R",
+		tag: "Tomica",
+		image: "tomica_188728.webp"
+	},
+	{
+		name: "TOMICA No.20 ISUZU ERGA TOEI BUS",
+		tag: "Tomica",
+		image: "tomica_879718.webp"
+	},
+	{
+		name: "TOMICA No.49 Toyota COASTER KINDERGARTEN BUS",
+		tag: "Tomica",
+		image: "tomica_799207.webp"
+	},
+	{
+		name: "TOMICA No.51 TOYOTA CROWN COMFORT TAXI",
+		tag: "Tomica",
+		image: "tomica_746881.webp"
+	},
+	{
+		name: "TOMICA No.69 AQUARIUM TRUCK",
+		tag: "Tomica",
+		image: "tomica_746829.webp"
+	},
+	{
+		name: "LONG TOMICA No.127 MITSUBISHI FUSO SUPER GREAT CONCRETE PUMPING TRUCK",
+		tag: "Tomica",
+		image: "tomica_189381.webp"
+	},
+	{
+		name: "LONG TOMICA No.132 YOKOHAMA CITY FIRE BUREAU SUPER RANGER MOBILITY TOWING WORK VEHICLE",
+		tag: "Tomica",
+		image: "tomica_981695.webp"
+	},
+	{
+		name: "TOMICA LONG No.149 HRC MOTOR HOME",
+		tag: "Tomica",
+		image: "tomica_228035.webp"
+	},
+	{
+		name: "TOMICA No.143 Hitachi Construction Machinery Super Long Front Excavator ZX210-7 SLF and Transporter",
+		tag: "Tomica",
+		image: "tomica_917694.webp"
+	},
+	{
+		name: "TOMICA No. 29 Thomas Land Express",
+		tag: "Tomica",
+		image: "tomica_450967.webp"
+	},
+	{
+		name: "TOMICA No.42 HATO BUS",
+		tag: "Tomica",
+		image: "tomica_859420.webp"
+	},
+	{
+		name: "TOMICA No.82 Toyota SORA",
+		tag: "Tomica",
+		image: "tomica_859420.webp"
+	},
+	{
+		name: "Nissan Silvia (S15)",
+		tag: "Hotwheels",
+		image: "hotwheels_000097.webp"
+	},
+	{
+		name: "Nissan Silvia (S15)",
+		tag: "Hotwheels",
+		image: "hotwheels_000098.webp"
+	},
+	{
+		name: "Bugatti Bolide",
+		tag: "Hotwheels",
+		image: "hotwheels_000099.webp"
+	},
+	{
+		name: "Lamborghini Countach LP 5000 QV",
+		tag: "Hotwheels",
+		image: "hotwheels_000100.webp"
+	},
+	{
+		name: "Dodge Charge SRT Hellcat Widebody",
+		tag: "Hotwheels",
+		image: "hotwheels_000101.webp"
+	},
+	{
+		name: "Toyota 2000GT",
+		tag: "Hotwheels",
+		image: "hotwheels_000102.webp"
+	},
+	{
+		name: "'87 Ford Sierra Cosworth",
+		tag: "Hotwheels",
+		image: "hotwheels_000103.webp"
+	},
+	{
+		name: "Japanese Crested Ibis",
+		tag: "Nendoroid",
+		image: "nendoroid_857.webp"
+	},
+	{
+		name: "Usada Pekora",
+		tag: "Nendoroid",
+		image: "nendoroid_1823.webp"
+	},
+	{
+		name: "Korone Inugami",
+		tag: "Nendoroid",
+		image: "nendoroid_1861.webp"
+	},
+	{
+		name: "Serval",
+		tag: "Nendoroid",
+		image: "nendoroid_752.webp"
+	},
+	{
+		name: "Alpaca Suri",
+		tag: "Nendoroid",
+		image: "nendoroid_844.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
