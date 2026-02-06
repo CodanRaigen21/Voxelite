@@ -1716,6 +1716,76 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 		tag: "Nendoroid",
 		image: "nendoroid_844.webp"
 	},
+	{
+		name: "DREAM TOMICA No.145 INITIAL D AE86 TRUENO",
+		tag: "Tomica",
+		image: "tomica_486466.webp"
+	},
+	{
+		name: "1990 Mercedes-Benz 190 R 2.5-16 Evolution II",
+		tag: "Hotwheels",
+		image: "hotwheels_000104.webp"
+	},
+	{
+		name: "Aston Martin Vanquish",
+		tag: "Hotwheels",
+		image: "hotwheels_000105.webp"
+	},
+	{
+		name: "Acura NSX GT3",
+		tag: "Hotwheels",
+		image: "hotwheels_000106.webp"
+	},
+	{
+		name: "Koenigsegg Agera R",
+		tag: "Hotwheels",
+		image: "hotwheels_000107.webp"
+	},
+	{
+		name: "2020 Dodge Charger Hellcat",
+		tag: "Hotwheels",
+		image: "hotwheels_000108.webp"
+	},
+	{
+		name: "Lamborghini Gallardo LP 570-4 Superleggera",
+		tag: "Hotwheels",
+		image: "hotwheels_000109.webp"
+	},
+	{
+		name: "'71 AMC Javelin",
+		tag: "Hotwheels",
+		image: "hotwheels_000110.webp"
+	},
+	{
+		name: "AMC Rebel Machine",
+		tag: "Hotwheels",
+		image: "hotwheels_000111.webp"
+	},
+	{
+		name: "Nissan 350Z Custom",
+		tag: "Hotwheels",
+		image: "hotwheels_000112.webp"
+	},
+	{
+		name: "Nissan Silvia (S15)",
+		tag: "Hotwheels",
+		image: "hotwheels_000113.webp"
+	},
+	{
+		name: "1996 Nissan 180 SX Type X",
+		tag: "Hotwheels",
+		image: "hotwheels_000114.webp"
+	},
+	{
+		name: "Toyota AE86 Sprinter Trueno",
+		tag: "Hotwheels",
+		image: "hotwheels_000115.webp"
+	},
+	{
+		name: "Toyota Soarer",
+		tag: "Hotwheels",
+		image: "hotwheels_000116.webp"
+	},
 ].forEach(i =>{
 	const cell = document.createElement("span");
 	cell.dataset.type = "cell";
