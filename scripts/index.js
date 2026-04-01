@@ -1,9 +1,11 @@
 const shelf = document.querySelector('[data-holds="shelf"]');
 
 [
+	{ "name": "10219 LEGO Maersk Train", "tag": "LEGO", "image": "10219.webp" },
 	{ "name": "10294 LEGO Titanic", "tag": "LEGO", "image": "10294.webp" },
 	{ "name": "11900 LEGO City Brickmaster", "tag": "LEGO", "image": "11900.webp" },
 	{ "name": "21344 LEGO Icons The Orient Express Train", "tag": "LEGO", "image": "21344.webp" },
+	{ "name": "42131 LEGO Technic CAT D11 Bulldozer", "tag": "LEGO", "image": "42131.webp" },
 	{ "name": "42032 LEGO Technic Compact Tracked Loader", "tag": "LEGO", "image": "42032.webp" },
 	{ "name": "42038 LEGO Technic Arctic Truck", "tag": "LEGO", "image": "42038.webp" },
 	{ "name": "42055 LEGO Technic Bucket Wheel Excavator", "tag": "LEGO", "image": "42055.webp" },
@@ -281,6 +283,11 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 	{ "name": "Aston Martin Vantage GTE", "tag": "Hotwheels", "image": "hotwheels_000248.webp" },
 	{ "name": "Volkswagen Jetta MK3", "tag": "Hotwheels", "image": "hotwheels_000249.webp" },
 	{ "name": "Volkswagen ID R", "tag": "Hotwheels", "image": "hotwheels_000250.webp" },
+	{ "name": "W Motors Lykan HyperSport", "tag": "Hotwheels", "image": "hotwheels_000251.webp" },
+	{ "name": "Euro Hauler", "tag": "Hotwheels", "image": "hotwheels_000252.webp" },
+	{ "name": "Automobili Pininfarina Battista", "tag": "Hotwheels", "image": "hotwheels_000253.webp" },
+	{ "name": "McLaren Solus GT", "tag": "Hotwheels", "image": "hotwheels_000254.webp" },
+	{ "name": "Aston Martin Vantage GTE", "tag": "Hotwheels", "image": "hotwheels_000255.webp" },
 	{ "name": "Volvo EC220 Excavator", "tag": "Maisto", "image": "maisto_000001.webp" },
 	{ "name": "Maisto Mini Working Machines Bobcat T40.180SLP Telehandler w/Man Platform", "tag": "Maisto", "image": "maisto_000002.webp" },
 	{ "name": "Porsche 918 Spyder", "tag": "Matchbox", "image": "matchbox_094568.webp" },
@@ -316,6 +323,7 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 	{ "name": "White Blood Cell (Neutrophil)", "tag": "Nendoroid", "image": "nendoroid_979.webp" },
 	{ "name": "BIG BOY LOCOMOTIVE", "tag": "Nifeliz", "image": "nf10263.webp" },
 	{ "name": "DDA40X LOCOMOTIVE", "tag": "Nifeliz", "image": "nf10296.webp" },
+	{ "name": "EPRE MARQUETTE", "tag": "Nifeliz", "image": "nf10323.webp" },
 	{ "name": "Audi R8 V10", "tag": "RMZ City", "image": "rmz_city_985767.webp" },
 	{ "name": "TOMICA No.13 NISSAN GT-R NISMO GT500", "tag": "Tomica", "image": "tomica_102618.webp" },
 	{ "name": "TOMICA No.57 McLaren 720S", "tag": "Tomica", "image": "tomica_102632.webp" },
