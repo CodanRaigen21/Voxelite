@@ -1,6 +1,8 @@
 const shelf = document.querySelector('[data-holds="shelf"]');
 
 [
+	{ "name": "21358 LEGO Minifigure Vending Machine", "tag": "LEGO", "image": "21358.webp" },
+	{ "name": "60051 LEGO City High Speed Passenger Train", "tag": "LEGO", "image": "60051.webp" },
 	{ "name": "10219 LEGO Maersk Train", "tag": "LEGO", "image": "10219.webp" },
 	{ "name": "10294 LEGO Titanic", "tag": "LEGO", "image": "10294.webp" },
 	{ "name": "11900 LEGO City Brickmaster", "tag": "LEGO", "image": "11900.webp" },
