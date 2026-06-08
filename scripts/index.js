@@ -1,6 +1,10 @@
 const shelf = document.querySelector('[data-holds="shelf"]');
 
 [
+	{ "name": "10233 LEGO Creator Expert Horizon Express", "tag": "LEGO", "image": "10233.webp" },
+	{ "name": "3677 LEGO Red Cargo Train", "tag": "LEGO", "image": "3677.webp" },
+	{ "name": "60098 LEGO Heavy-Haul Train", "tag": "LEGO", "image": "60098.webp" },
+	{ "name": "7898 LEGO Cargo Train Deluxe", "tag": "LEGO", "image": "7898.webp" },
 	{ "name": "7897 LEGO Passenger Train", "tag": "LEGO", "image": "7897.webp" },
 	{ "name": "21358 LEGO Minifigure Vending Machine", "tag": "LEGO", "image": "21358.webp" },
 	{ "name": "60051 LEGO City High Speed Passenger Train", "tag": "LEGO", "image": "60051.webp" },
@@ -367,6 +371,14 @@ const shelf = document.querySelector('[data-holds="shelf"]');
 	{ "name": "'32 Ford", "tag": "Hotwheels", "image": "hotwheels_000329.webp" },
 	{ "name": "1967 Volkswagen Samba Bus", "tag": "Hotwheels", "image": "hotwheels_000330.webp" },
 	{ "name": "BMW M3", "tag": "Hotwheels", "image": "hotwheels_000331.webp" },
+	{ "name": "W Motors Lykan HyperSport", "tag": "Hotwheels", "image": "hotwheels_000332.webp" },
+	{ "name": "'64 Lincoln Continental", "tag": "Hotwheels", "image": "hotwheels_000333.webp" },
+	{ "name": "McMurtry Spéirling", "tag": "Hotwheels", "image": "hotwheels_000334.webp" },
+	{ "name": "'84 Pontiac Firebird", "tag": "Hotwheels", "image": "hotwheels_000335.webp" },
+	{ "name": "'06 Pontiac GTO", "tag": "Hotwheels", "image": "hotwheels_000336.webp" },
+	{ "name": "'65 Pontiac Bonneville", "tag": "Hotwheels", "image": "hotwheels_000337.webp" },
+	{ "name": "'70 Pontiac GTO Judge", "tag": "Hotwheels", "image": "hotwheels_000338.webp" },
+	{ "name": "'66 Pontiac GTO", "tag": "Hotwheels", "image": "hotwheels_000339.webp" },
 	{ "name": "Volvo EC220 Excavator", "tag": "Maisto", "image": "maisto_000001.webp" },
 	{ "name": "Maisto Mini Working Machines Bobcat T40.180SLP Telehandler w/Man Platform", "tag": "Maisto", "image": "maisto_000002.webp" },
 	{ "name": "Porsche 918 Spyder", "tag": "Matchbox", "image": "matchbox_094568.webp" },
